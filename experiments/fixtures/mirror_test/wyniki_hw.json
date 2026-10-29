@@ -1,0 +1,244 @@
+{
+ "job": {
+  "job_id": "davcn5o4oijs73e7b5m0",
+  "backend": "ibm_marrakesh",
+  "shots": 4000,
+  "order": [
+   [
+    "half_uncomputed",
+    "ref"
+   ],
+   [
+    "half_uncomputed",
+    "sub"
+   ],
+   [
+    "half_uncomputed",
+    "greedy"
+   ],
+   [
+    "controlled_adder_2b",
+    "ref"
+   ],
+   [
+    "controlled_adder_2b",
+    "sub"
+   ],
+   [
+    "controlled_adder_2b",
+    "greedy"
+   ],
+   [
+    "nested_compute_uncompute",
+    "ref"
+   ],
+   [
+    "nested_compute_uncompute",
+    "sub"
+   ],
+   [
+    "nested_compute_uncompute",
+    "greedy"
+   ],
+   [
+    "single_live_toffoli",
+    "ref"
+   ],
+   [
+    "single_live_toffoli",
+    "sub"
+   ],
+   [
+    "single_live_toffoli",
+    "greedy"
+   ],
+   [
+    "live_and_chain",
+    "ref"
+   ],
+   [
+    "live_and_chain",
+    "sub"
+   ],
+   [
+    "live_and_chain",
+    "greedy"
+   ]
+  ],
+  "p0_ideal": [
+   0.9999999999999938,
+   0.9999999999999962,
+   0.2499999999999991,
+   0.9999999999999847,
+   0.9999999999999893,
+   0.316406249999997,
+   0.999999999999992,
+   0.9999999999999947,
+   0.9999999999999947,
+   0.9999999999999976,
+   0.9999999999999976,
+   0.5624999999999987,
+   0.9999999999999953,
+   0.9999999999999953,
+   0.3906249999999987
+  ],
+  "twoq_t": [
+   60,
+   49,
+   49,
+   158,
+   137,
+   125,
+   78,
+   56,
+   56,
+   14,
+   18,
+   13,
+   28,
+   28,
+   26
+  ],
+  "sent": "Thu Oct  1 23:07:35 2026"
+ },
+ "rows": [
+  {
+   "name": "half_uncomputed",
+   "tag": "ref",
+   "p0_ideal": 1.0,
+   "p0_hw": 0.8107,
+   "sigma": 0.0062,
+   "shots": 4000,
+   "twoq_transpiled": 60
+  },
+  {
+   "name": "half_uncomputed",
+   "tag": "sub",
+   "p0_ideal": 1.0,
+   "p0_hw": 0.829,
+   "sigma": 0.006,
+   "shots": 4000,
+   "twoq_transpiled": 49
+  },
+  {
+   "name": "half_uncomputed",
+   "tag": "greedy",
+   "p0_ideal": 0.25,
+   "p0_hw": 0.2507,
+   "sigma": 0.0069,
+   "shots": 4000,
+   "twoq_transpiled": 49
+  },
+  {
+   "name": "controlled_adder_2b",
+   "tag": "ref",
+   "p0_ideal": 1.0,
+   "p0_hw": 0.1492,
+   "sigma": 0.0056,
+   "shots": 4000,
+   "twoq_transpiled": 158
+  },
+  {
+   "name": "controlled_adder_2b",
+   "tag": "sub",
+   "p0_ideal": 1.0,
+   "p0_hw": 0.3085,
+   "sigma": 0.0073,
+   "shots": 4000,
+   "twoq_transpiled": 137
+  },
+  {
+   "name": "controlled_adder_2b",
+   "tag": "greedy",
+   "p0_ideal": 0.3164,
+   "p0_hw": 0.134,
+   "sigma": 0.0054,
+   "shots": 4000,
+   "twoq_transpiled": 125
+  },
+  {
+   "name": "nested_compute_uncompute",
+   "tag": "ref",
+   "p0_ideal": 1.0,
+   "p0_hw": 0.474,
+   "sigma": 0.0079,
+   "shots": 4000,
+   "twoq_transpiled": 78
+  },
+  {
+   "name": "nested_compute_uncompute",
+   "tag": "sub",
+   "p0_ideal": 1.0,
+   "p0_hw": 0.5222,
+   "sigma": 0.0079,
+   "shots": 4000,
+   "twoq_transpiled": 56
+  },
+  {
+   "name": "nested_compute_uncompute",
+   "tag": "greedy",
+   "p0_ideal": 1.0,
+   "p0_hw": 0.537,
+   "sigma": 0.0079,
+   "shots": 4000,
+   "twoq_transpiled": 56
+  },
+  {
+   "name": "single_live_toffoli",
+   "tag": "ref",
+   "p0_ideal": 1.0,
+   "p0_hw": 0.9373,
+   "sigma": 0.0038,
+   "shots": 4000,
+   "twoq_transpiled": 14
+  },
+  {
+   "name": "single_live_toffoli",
+   "tag": "sub",
+   "p0_ideal": 1.0,
+   "p0_hw": 0.921,
+   "sigma": 0.0043,
+   "shots": 4000,
+   "twoq_transpiled": 18
+  },
+  {
+   "name": "single_live_toffoli",
+   "tag": "greedy",
+   "p0_ideal": 0.5625,
+   "p0_hw": 0.5152,
+   "sigma": 0.0079,
+   "shots": 4000,
+   "twoq_transpiled": 13
+  },
+  {
+   "name": "live_and_chain",
+   "tag": "ref",
+   "p0_ideal": 1.0,
+   "p0_hw": 0.7368,
+   "sigma": 0.007,
+   "shots": 4000,
+   "twoq_transpiled": 28
+  },
+  {
+   "name": "live_and_chain",
+   "tag": "sub",
+   "p0_ideal": 1.0,
+   "p0_hw": 0.7202,
+   "sigma": 0.0071,
+   "shots": 4000,
+   "twoq_transpiled": 28
+  },
+  {
+   "name": "live_and_chain",
+   "tag": "greedy",
+   "p0_ideal": 0.3906,
+   "p0_hw": 0.2908,
+   "sigma": 0.0072,
+   "shots": 4000,
+   "twoq_transpiled": 26
+  }
+ ],
+ "usage": "18",
+ "qpu_s": 18,
+ "qpu_s_zrodlo": "job.usage() 01.10.2026 23:10, instancja us-east-open"
+}

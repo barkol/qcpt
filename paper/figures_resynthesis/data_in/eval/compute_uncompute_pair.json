@@ -1,0 +1,1 @@
+{"circuit": "compute_uncompute_pair", "n": 4, "pins": 0, "exact": 13, "v1": 7, "v1_cleanup": 7, "resynth": null, "resynth_s": 98.0, "v2": 7, "v2_source": "v1", "resynth_true": null, "v2_true": 7, "v2_true_source": "v1"}

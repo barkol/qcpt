@@ -1,0 +1,1 @@
+{"circuit": "rl_alu-v3_34", "start": 21, "best_known": 15, "final": 15, "reached": true, "wall_s": 4.25, "cpu_s": 44.5, "steps": [{"member": "B3_basic_l06", "cost": 15, "round_s": 0.364, "at_s": 0.372, "wall": 0.374}], "winner": "B3_basic_l06", "t_best": 0.374, "t_best_core": 0.372, "cpu_s_at_best": 2.1, "dev": 9.9968432969607e-16, "cx": 15}

@@ -1,0 +1,22 @@
+{
+ "n_circuits": 33,
+ "n_simulated": 33,
+ "n_better_001": 29,
+ "n_worse_001": 0,
+ "mean_gain": 0.030272365467000958,
+ "max_gain": 0.06928291925634344,
+ "max_gain_circuit": "controlled_adder_2b",
+ "min_gain": -0.003622249821328083,
+ "min_gain_circuit": "rl_rd53_138",
+ "source_counts": {
+  "qct": 19,
+  "qct_post": 12,
+  "qct_topo": 2
+ },
+ "source_names": {},
+ "total_2q_qcpt": 2545,
+ "total_2q_qiskit": 3234,
+ "total_2q_reduction_pct": 21.304885590599877,
+ "slope_per_gate": 0.001391488783806067,
+ "skipped": []
+}

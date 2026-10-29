@@ -1,0 +1,72 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qcpt"
+version = "2.0.0"
+description = "Certified context-dependent Toffoli decompositions: fewer two-qubit gates with subroutine guarantees."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+authors = [
+    { name = "Karol Bartkiewicz", email = "karol.bartkiewicz@amu.edu.pl" },
+    { name = "Patrycja Tulewicz" },
+]
+keywords = [
+    "quantum computing",
+    "quantum compilation",
+    "Toffoli gate",
+    "equivalence checking",
+    "NISQ",
+    "error budget",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+    "qiskit>=2.4",
+    "numpy>=1.26",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+zx = [
+    "pyzx>=0.8",
+]
+experiments = [
+    "qiskit-aer>=0.17",
+    "pytket>=2.18",
+    "pytket-qiskit>=0.77",
+    # The certificates pass run_zx_checker, elide_permutations and
+    # trace_threshold and fail closed if they are not accepted. Minimum = versions used for the paper.
+    "mqt.qcec>=3.6.1",
+    "scipy>=1.10",
+]
+dev = [
+    "pytest>=7",
+    "pytest-cov>=4",
+    "hypothesis>=6",
+]
+
+[project.urls]
+Homepage = "https://github.com/barkol/qcpt"
+Repository = "https://github.com/barkol/qcpt"
+Preprint = "https://arxiv.org/abs/2606.31791"
+
+[tool.setuptools.packages.find]
+include = ["toffoli_optimizer*"]
+exclude = ["tests*", "examples*", "benchmarks*", "experiments*", "docs*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-ra --strict-markers"

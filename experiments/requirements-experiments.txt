@@ -1,0 +1,12 @@
+# Extra dependencies for reproducing the paper's experiments.
+# Install with:  pip install -e ".[experiments]"  (recommended)
+# or directly:  pip install -r experiments/requirements-experiments.txt
+# Versions used for the paper (ml environment, 2026-10): qiskit 2.4.1, qiskit-aer 0.17.2,
+# pytket 2.18.0, pytket-qiskit 0.77.0, mqt.qcec 3.6.1, numpy 2.2.2, scipy 1.17.1,
+# matplotlib 3.10.9, qiskit-ibm-runtime 0.46.1 (mirror test and calibrations only), Python 3.12.
+qiskit>=2.4
+qiskit-aer>=0.17
+pytket>=2.18
+pytket-qiskit>=0.77
+mqt.qcec>=3.6.1
+scipy>=1.10

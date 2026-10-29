@@ -1,0 +1,1 @@
+{"circuit": "rl_4_49_17", "n": 4, "pins": 0, "exact": 35, "v1": 29, "v1_cleanup": 28, "resynth": null, "resynth_s": 100.1, "v2": 22, "v2_source": "cleanup", "resynth_true": null, "v2_true": 28, "v2_true_source": "cleanup", "v2_previous": 28}

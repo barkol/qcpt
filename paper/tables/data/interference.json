@@ -1,0 +1,56 @@
+{
+ "editor": {
+  "greedy": {
+   "twoq": 3,
+   "sub": false,
+   "prog": false
+  },
+  "sub": {
+   "twoq": 6,
+   "sub": true,
+   "prog": true
+  },
+  "prog": {
+   "twoq": 6,
+   "sub": true,
+   "prog": true
+  },
+  "exact_twoq": 6
+ },
+ "fig1b": {
+  "greedy": {
+   "twoq": 3,
+   "sub": false,
+   "prog": false
+  },
+  "sub": {
+   "twoq": 6,
+   "sub": true,
+   "prog": true
+  },
+  "prog": {
+   "twoq": 6,
+   "sub": true,
+   "prog": true
+  },
+  "exact_twoq": 6
+ },
+ "fig1b_clean": {
+  "greedy": {
+   "twoq": 3,
+   "sub": false,
+   "prog": false
+  },
+  "sub": {
+   "twoq": 3,
+   "sub": true,
+   "prog": true
+  },
+  "prog": {
+   "twoq": 3,
+   "sub": true,
+   "prog": true
+  },
+  "exact_twoq": 6
+ }
+}

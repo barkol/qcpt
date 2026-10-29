@@ -1,0 +1,1 @@
+{"circuit": "rl_alu-v3_34", "n": 5, "pins": 0, "exact": 21, "v1": 21, "v1_cleanup": 21, "lib": "basic", "resynth": 15, "resynth_dev": 9.992007221626409e-16, "resynth_s": 215.0, "v2": 14, "v2_source": "resynth", "resynth_true": 15, "gates3q": [], "v2_true": 15, "v2_true_source": "resynth", "v2_previous": 15}

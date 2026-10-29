@@ -1,0 +1,19 @@
+circuit                       q  truth flagged  audit
+-----------------------------------------------------
+ripple_carry_adder_2b         6   safe       4     ok
+controlled_adder_2b           7 UNSAFE       8  WRONG
+grover_oracle_mcx3            6   safe       4     ok
+grover_oracle_mcx4            8   safe       6     ok
+grover_native_mcx4            5   safe       0     ok
+compute_uncompute_pair        4   safe       2     ok
+nested_compute_uncompute      6   safe       4     ok
+live_and_chain                5 UNSAFE       2  WRONG
+phase_sensitive_oracle        3 UNSAFE       1  WRONG
+single_live_toffoli           3 UNSAFE       1  WRONG
+half_uncomputed               5 UNSAFE       3  WRONG
+adder_live_carry              5 UNSAFE       3  WRONG
+-----------------------------------------------------
+
+ROW (b): our analysis-only (un-gated) pass introduces 6 of 12 silent errors (flagged 38 relative-phase sites).
+
+Table written to: <run>/experiments/ablation_b_results.md

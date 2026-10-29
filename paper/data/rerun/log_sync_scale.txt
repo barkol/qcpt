@@ -1,0 +1,5 @@
+circuit             q ccx 2q_be 2q_af  red% infid_red%  cert     method    t(s)
+resetting_n8_L3     7  21   129    93  27.9       15.3  True exhaustive   0.056
+resetting_n8_L5     9  35   215   155  27.9        9.3  True exhaustive   1.139
+resetting_n8_L7    11  49   301   217  27.9        5.4  True       qcec   0.024
+resetting_n16_L7   12  56   343   259  24.5        3.3  True       qcec   0.035

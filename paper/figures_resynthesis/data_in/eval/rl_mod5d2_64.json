@@ -1,0 +1,1 @@
+{"circuit": "rl_mod5d2_64", "n": 5, "pins": 0, "exact": 22, "v1": 22, "v1_cleanup": 22, "lib": "basic", "resynth": 11, "resynth_dev": 1.1102230246251565e-15, "resynth_s": 209.3, "v2": 10, "v2_source": "resynth", "resynth_true": 11, "gates3q": [], "v2_true": 11, "v2_true_source": "resynth", "v2_previous": 11}

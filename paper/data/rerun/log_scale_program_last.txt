@@ -1,0 +1,3 @@
+prog None qcec_timeout_300s 300.1
+greedy None qcec_timeout_300s 300.1
+{"name": "array_mult_6b", "n": 24, "family": "multiplier/live", "twoq_exact": 216, "infid_exact": 0.9175064072618409, "twoq_sub": 216, "infid_sub": 0.9175064072618409, "pairs": 0, "r_gadgets": 0, "U_admitted": 36, "ccx": 36, "twoq_prog": 108, "infid_prog": 0.7075636726306392, "sub_ok_prog": null, "s

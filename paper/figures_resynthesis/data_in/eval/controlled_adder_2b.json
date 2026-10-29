@@ -1,0 +1,1 @@
+{"circuit": "controlled_adder_2b", "n": 7, "pins": 2, "exact": 48, "v1": 30, "v1_cleanup": 30, "lib": "basic", "resynth": 17, "resynth_dev": 3.774758283725532e-15, "resynth_s": 363.8, "v2": 17, "v2_source": "resynth", "claude_S": 25, "claude_W": 17, "resynth_true": 17, "gates3q": [], "v2_true": 17, "v2_true_source": "resynth"}

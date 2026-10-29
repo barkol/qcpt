@@ -1,0 +1,1 @@
+{"circuit": "nested_compute_uncompute", "n": 6, "pins": 2, "exact": 25, "v1": 13, "v1_cleanup": 13, "lib": "basic", "resynth": 12, "resynth_dev": 1.3322676295501878e-15, "resynth_s": 364.8, "v2": 12, "v2_source": "resynth", "resynth_true": 12, "gates3q": [], "v2_true": 12, "v2_true_source": "resynth"}

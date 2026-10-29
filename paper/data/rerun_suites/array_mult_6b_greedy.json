@@ -1,0 +1,12 @@
+{
+ "name": "array_mult_6b",
+ "tag": "greedy",
+ "equivalent": false,
+ "method": "qcec",
+ "t_s": 1230.3,
+ "detail": {
+  "equivalence_criterion": "not_equivalent"
+ },
+ "twoq": 108,
+ "finished": "Fri Oct  2 20:39:36 2026"
+}

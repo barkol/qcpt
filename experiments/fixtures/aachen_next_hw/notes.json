@@ -1,0 +1,41 @@
+{
+ "skipped": {},
+ "post": {
+  "ripple_adder_4b": {
+   "cz_before": 319,
+   "cz_after": 319,
+   "k": 10,
+   "cz_segment": 135,
+   "note": "no cheaper circuit found"
+  },
+  "rl_4_49_17": {
+   "cz_before": 99,
+   "cz_after": 99,
+   "k": 4,
+   "cz_segment": 46,
+   "note": "no cheaper circuit found"
+  },
+  "rl_decod24-bdd_294": {
+   "cz_before": 106,
+   "cz_after": 71,
+   "k": 6,
+   "cz_segment": 50,
+   "cz_new": 15,
+   "verified": true
+  },
+  "rl_alu-bdd_288": {
+   "cz_before": 130,
+   "cz_after": 130,
+   "k": 7,
+   "cz_segment": 58,
+   "note": "no cheaper circuit found"
+  },
+  "rl_one-two-three-v3_101": {
+   "cz_before": 96,
+   "cz_after": 96,
+   "k": 5,
+   "cz_segment": 42,
+   "note": "no cheaper circuit found"
+  }
+ }
+}

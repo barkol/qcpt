@@ -1,0 +1,1 @@
+{"circuit": "grover_oracle_2c", "start": 7, "best_known": 0, "final": 6, "reached": false, "wall_s": 5.25, "cpu_s": 23.0, "steps": [{"member": "B3_basic_l06", "cost": 6, "round_s": 0.257, "at_s": 0.265, "wall": 0.266}], "winner": "B3_basic_l06", "t_best": 0.266, "t_best_core": 0.265, "cpu_s_at_best": 1.1, "dev": 5.577646685183208e-16, "cx": 6}

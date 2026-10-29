@@ -1,0 +1,17 @@
+{
+ "mod_incr_11b|1e-12": "equivalent",
+ "mod_incr_11b|1e-10": "equivalent",
+ "mod_incr_11b|1e-08": "equivalent",
+ "ripple_adder_10b|1e-12": "equivalent",
+ "ripple_adder_10b|1e-10": "equivalent",
+ "ripple_adder_10b|1e-08": "equivalent",
+ "cla_adder_7b|1e-12": "equivalent",
+ "cla_adder_7b|1e-10": "equivalent",
+ "cla_adder_7b|1e-08": "equivalent",
+ "rx0.0001|1e-12": "not_equivalent",
+ "rx0.0001|1e-10": "not_equivalent",
+ "rx0.0001|1e-08": "equivalent_up_to_global_phase",
+ "rx1e-06|1e-12": "equivalent",
+ "rx1e-06|1e-10": "equivalent",
+ "rx1e-06|1e-08": "equivalent"
+}

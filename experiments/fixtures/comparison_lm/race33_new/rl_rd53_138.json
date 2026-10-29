@@ -1,0 +1,1 @@
+{"circuit": "rl_rd53_138", "start": 33, "best_known": 23, "final": 23, "reached": true, "wall_s": 34.19, "cpu_s": 795.8, "steps": [{"member": "B4_div_noise", "cost": 23, "round_s": 15.879, "at_s": 15.922, "wall": 15.923}], "winner": "B4_div_noise", "t_best": 15.923, "t_best_core": 15.922, "cpu_s_at_best": 375.0, "dev": 3.886835911530275e-15, "cx": 23}

@@ -1,0 +1,1 @@
+{"circuit": "rl_mod5d2_64", "start": 22, "best_known": 11, "final": 11, "reached": true, "wall_s": 3.83, "cpu_s": 32.1, "steps": [{"member": "B3_basic_l06", "cost": 11, "round_s": 0.388, "at_s": 0.397, "wall": 0.398}], "winner": "B3_basic_l06", "t_best": 0.398, "t_best_core": 0.397, "cpu_s_at_best": 2.3, "dev": 1.1103108378260801e-15, "cx": 11}

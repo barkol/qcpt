@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite both the software itself and the
+  companion paper (see `preferred-citation`).
+type: software
+title: >-
+  QCPT: certified Toffoli decomposition selection
+authors:
+  - family-names: Bartkiewicz
+    given-names: Karol
+    affiliation: >-
+      Institute of Spintronics and Quantum Information,
+      Faculty of Physics and Astronomy, Adam Mickiewicz University,
+      Poznań, Poland
+  - family-names: Tulewicz
+    given-names: Patrycja
+    affiliation: >-
+      Institute of Spintronics and Quantum Information,
+      Faculty of Physics and Astronomy, Adam Mickiewicz University,
+      Poznań, Poland; Poznań Supercomputing and Networking Center, IBCH PAS, Poznań, Poland
+repository-code: "https://github.com/barkol/qcpt"
+url: "https://github.com/barkol/qcpt"
+license: MIT
+version: "1.2.1"
+keywords:
+  - quantum computing
+  - quantum compilation
+  - Toffoli gate
+  - equivalence checking
+  - NISQ
+  - error budget
+preferred-citation:
+  type: article
+  title: >-
+    Context-Verified, Error-Budget-Aware Decomposition Selection for
+    Toffoli Networks
+  authors:
+    - family-names: Bartkiewicz
+      given-names: Karol
+    - family-names: Tulewicz
+      given-names: Patrycja
+  year: 2026
+  journal: "arXiv preprint"
+  url: "https://arxiv.org/abs/2606.31791"

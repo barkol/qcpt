@@ -1,0 +1,19 @@
+benchmark suite: 12 circuits
+
+method         2q-infid 2q-count depth(tot) depth(mean) 2q-depth ancilla   verified
+-----------------------------------------------------------------------------------
+qiskit_l3        2.6904      281        439       36.58      247       0      12/12
+tket             2.6602      279        448       37.33      246       0      12/12
+exact_only       2.7437      281        477       39.75      247       0      12/12
+ours             1.9722      194        362       30.17      177       0      12/12
+
+cross-checks:
+  exact_only: 2q=281 (expected 281), infid=2.74 (expected 2.74)
+  ours:       2q=194 (paper: 194), infid=1.97 (paper: 1.97)
+
+ours (gated) vs each baseline:
+  vs qiskit_l3  : 2q-infid 2.6904 -> 1.9722 (+26.7%), 2q 281 -> 194 (+31.0%)
+  vs tket       : 2q-infid 2.6602 -> 1.9722 (+25.9%), 2q 279 -> 194 (+30.5%)
+  vs exact_only : 2q-infid 2.7437 -> 1.9722 (+28.1%), 2q 281 -> 194 (+31.0%)
+
+wrote <run>/experiments/baseline_results.md

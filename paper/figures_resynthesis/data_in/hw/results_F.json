@@ -1,0 +1,1036 @@
+{
+ "job": {
+  "job_id": "dbebf7ni3chs73bia2sg",
+  "shots": 8000,
+  "est_s": 79.9,
+  "sent": "2026-10-24 15:50:22",
+  "account": "eu-de-aachen-156",
+  "backend": "ibm_aachen",
+  "order": [
+   [
+    "grover_oracle_mcx4",
+    "ref",
+    0
+   ],
+   [
+    "grover_oracle_mcx4",
+    "sub",
+    0
+   ],
+   [
+    "grover_oracle_mcx4",
+    "greedy",
+    0
+   ],
+   [
+    "grover_oracle_mcx4",
+    "llmS",
+    0
+   ],
+   [
+    "grover_oracle_mcx4",
+    "llmW",
+    0
+   ],
+   [
+    "controlled_adder_2b",
+    "ref",
+    0
+   ],
+   [
+    "controlled_adder_2b",
+    "sub",
+    0
+   ],
+   [
+    "controlled_adder_2b",
+    "greedy",
+    0
+   ],
+   [
+    "controlled_adder_2b",
+    "llmS",
+    0
+   ],
+   [
+    "controlled_adder_2b",
+    "llmW",
+    0
+   ],
+   [
+    "controlled_adder_2b",
+    "qcp",
+    0
+   ],
+   [
+    "rl_rd53_138",
+    "ref",
+    0
+   ],
+   [
+    "rl_rd53_138",
+    "sub",
+    0
+   ],
+   [
+    "rl_rd53_138",
+    "greedy",
+    0
+   ],
+   [
+    "rl_rd53_138",
+    "llmS",
+    0
+   ],
+   [
+    "rl_rd53_138",
+    "llmW",
+    0
+   ],
+   [
+    "rl_rd53_138",
+    "qcp",
+    0
+   ],
+   [
+    "mod_incr_3b",
+    "ref",
+    0
+   ],
+   [
+    "mod_incr_3b",
+    "sub",
+    0
+   ],
+   [
+    "mod_incr_3b",
+    "greedy",
+    0
+   ],
+   [
+    "mod_incr_3b",
+    "llmS",
+    0
+   ],
+   [
+    "mod_incr_3b",
+    "qcp",
+    0
+   ],
+   [
+    "half_uncomputed",
+    "ref",
+    0
+   ],
+   [
+    "half_uncomputed",
+    "sub",
+    0
+   ],
+   [
+    "half_uncomputed",
+    "greedy",
+    0
+   ],
+   [
+    "half_uncomputed",
+    "qcp",
+    0
+   ]
+  ],
+  "p0_ideal": [
+   0.999999999999988,
+   0.9999999999999931,
+   0.9999999999999931,
+   0.9999999999999896,
+   0.7988658905932678,
+   0.9999999999999847,
+   0.9999999999999893,
+   0.316406249999997,
+   0.99999999999999,
+   0.9999999999999909,
+   0.9999999999999909,
+   0.9999999999999842,
+   0.9999999999999885,
+   0.003906249999999967,
+   0.9999999999999842,
+   0.9999999999999851,
+   0.9999999999999911,
+   0.999999999999992,
+   0.9999999999999947,
+   0.062499999999999695,
+   0.9999999999999944,
+   0.9999999999999951,
+   0.9999999999999938,
+   0.9999999999999962,
+   0.2499999999999991,
+   0.9999999999999962
+  ],
+  "twoq_t": [
+   118,
+   104,
+   104,
+   88,
+   90,
+   154,
+   137,
+   125,
+   144,
+   110,
+   123,
+   120,
+   107,
+   104,
+   117,
+   112,
+   107,
+   72,
+   60,
+   60,
+   59,
+   72,
+   60,
+   49,
+   49,
+   41
+  ],
+  "twoq_V": [
+   37,
+   19,
+   19,
+   18,
+   16,
+   48,
+   30,
+   24,
+   25,
+   17,
+   17,
+   52,
+   37,
+   28,
+   39,
+   30,
+   33,
+   27,
+   15,
+   15,
+   10,
+   13,
+   19,
+   10,
+   10,
+   8
+  ],
+  "phys": [
+   [
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    97,
+    107
+   ],
+   [
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    97,
+    107
+   ],
+   [
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    97,
+    107
+   ],
+   [
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    97,
+    107
+   ],
+   [
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    97,
+    107
+   ],
+   [
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    97
+   ],
+   [
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    97
+   ],
+   [
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    97
+   ],
+   [
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    97
+   ],
+   [
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    97
+   ],
+   [
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    97
+   ],
+   [
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    97,
+    107
+   ],
+   [
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    97,
+    107
+   ],
+   [
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    97,
+    107
+   ],
+   [
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    97,
+    107
+   ],
+   [
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    97,
+    107
+   ],
+   [
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    97,
+    107
+   ],
+   [
+    84,
+    85,
+    86,
+    87,
+    88,
+    97
+   ],
+   [
+    84,
+    85,
+    86,
+    87,
+    88,
+    97
+   ],
+   [
+    84,
+    85,
+    86,
+    87,
+    88,
+    97
+   ],
+   [
+    84,
+    85,
+    86,
+    87,
+    88,
+    97
+   ],
+   [
+    84,
+    85,
+    86,
+    87,
+    88,
+    97
+   ],
+   [
+    84,
+    85,
+    86,
+    87,
+    88
+   ],
+   [
+    84,
+    85,
+    86,
+    87,
+    88
+   ],
+   [
+    84,
+    85,
+    86,
+    87,
+    88
+   ],
+   [
+    84,
+    85,
+    86,
+    87,
+    88
+   ]
+  ],
+  "oriented": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ "rows": [
+  {
+   "name": "grover_oracle_mcx4",
+   "tag": "ref",
+   "region": 0,
+   "p0_ideal": 1.0,
+   "p0_hw": 0.519,
+   "sigma": 0.0056,
+   "shots": 8000,
+   "twoq_transpiled": 118,
+   "twoq_V": 37,
+   "oriented": null,
+   "phys": [
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    97,
+    107
+   ]
+  },
+  {
+   "name": "grover_oracle_mcx4",
+   "tag": "sub",
+   "region": 0,
+   "p0_ideal": 1.0,
+   "p0_hw": 0.5815,
+   "sigma": 0.0055,
+   "shots": 8000,
+   "twoq_transpiled": 104,
+   "twoq_V": 19,
+   "oriented": null,
+   "phys": [
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    97,
+    107
+   ]
+  },
+  {
+   "name": "grover_oracle_mcx4",
+   "tag": "greedy",
+   "region": 0,
+   "p0_ideal": 1.0,
+   "p0_hw": 0.5784,
+   "sigma": 0.0055,
+   "shots": 8000,
+   "twoq_transpiled": 104,
+   "twoq_V": 19,
+   "oriented": null,
+   "phys": [
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    97,
+    107
+   ]
+  },
+  {
+   "name": "grover_oracle_mcx4",
+   "tag": "llmS",
+   "region": 0,
+   "p0_ideal": 1.0,
+   "p0_hw": 0.6535,
+   "sigma": 0.0053,
+   "shots": 8000,
+   "twoq_transpiled": 88,
+   "twoq_V": 18,
+   "oriented": null,
+   "phys": [
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    97,
+    107
+   ]
+  },
+  {
+   "name": "grover_oracle_mcx4",
+   "tag": "llmW",
+   "region": 0,
+   "p0_ideal": 0.7989,
+   "p0_hw": 0.5324,
+   "sigma": 0.0056,
+   "shots": 8000,
+   "twoq_transpiled": 90,
+   "twoq_V": 16,
+   "oriented": null,
+   "phys": [
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    97,
+    107
+   ]
+  },
+  {
+   "name": "controlled_adder_2b",
+   "tag": "ref",
+   "region": 0,
+   "p0_ideal": 1.0,
+   "p0_hw": 0.4631,
+   "sigma": 0.0056,
+   "shots": 8000,
+   "twoq_transpiled": 154,
+   "twoq_V": 48,
+   "oriented": null,
+   "phys": [
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    97
+   ]
+  },
+  {
+   "name": "controlled_adder_2b",
+   "tag": "sub",
+   "region": 0,
+   "p0_ideal": 1.0,
+   "p0_hw": 0.5814,
+   "sigma": 0.0055,
+   "shots": 8000,
+   "twoq_transpiled": 137,
+   "twoq_V": 30,
+   "oriented": null,
+   "phys": [
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    97
+   ]
+  },
+  {
+   "name": "controlled_adder_2b",
+   "tag": "greedy",
+   "region": 0,
+   "p0_ideal": 0.3164,
+   "p0_hw": 0.1914,
+   "sigma": 0.0044,
+   "shots": 8000,
+   "twoq_transpiled": 125,
+   "twoq_V": 24,
+   "oriented": null,
+   "phys": [
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    97
+   ]
+  },
+  {
+   "name": "controlled_adder_2b",
+   "tag": "llmS",
+   "region": 0,
+   "p0_ideal": 1.0,
+   "p0_hw": 0.5829,
+   "sigma": 0.0055,
+   "shots": 8000,
+   "twoq_transpiled": 144,
+   "twoq_V": 25,
+   "oriented": null,
+   "phys": [
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    97
+   ]
+  },
+  {
+   "name": "controlled_adder_2b",
+   "tag": "llmW",
+   "region": 0,
+   "p0_ideal": 1.0,
+   "p0_hw": 0.6462,
+   "sigma": 0.0053,
+   "shots": 8000,
+   "twoq_transpiled": 110,
+   "twoq_V": 17,
+   "oriented": null,
+   "phys": [
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    97
+   ]
+  },
+  {
+   "name": "controlled_adder_2b",
+   "tag": "qcp",
+   "region": 0,
+   "p0_ideal": 1.0,
+   "p0_hw": 0.6412,
+   "sigma": 0.0054,
+   "shots": 8000,
+   "twoq_transpiled": 123,
+   "twoq_V": 17,
+   "oriented": null,
+   "phys": [
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    97
+   ]
+  },
+  {
+   "name": "rl_rd53_138",
+   "tag": "ref",
+   "region": 0,
+   "p0_ideal": 1.0,
+   "p0_hw": 0.605,
+   "sigma": 0.0055,
+   "shots": 8000,
+   "twoq_transpiled": 120,
+   "twoq_V": 52,
+   "oriented": null,
+   "phys": [
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    97,
+    107
+   ]
+  },
+  {
+   "name": "rl_rd53_138",
+   "tag": "sub",
+   "region": 0,
+   "p0_ideal": 1.0,
+   "p0_hw": 0.6226,
+   "sigma": 0.0054,
+   "shots": 8000,
+   "twoq_transpiled": 107,
+   "twoq_V": 37,
+   "oriented": null,
+   "phys": [
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    97,
+    107
+   ]
+  },
+  {
+   "name": "rl_rd53_138",
+   "tag": "greedy",
+   "region": 0,
+   "p0_ideal": 0.0039,
+   "p0_hw": 0.0094,
+   "sigma": 0.0011,
+   "shots": 8000,
+   "twoq_transpiled": 104,
+   "twoq_V": 28,
+   "oriented": null,
+   "phys": [
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    97,
+    107
+   ]
+  },
+  {
+   "name": "rl_rd53_138",
+   "tag": "llmS",
+   "region": 0,
+   "p0_ideal": 1.0,
+   "p0_hw": 0.6124,
+   "sigma": 0.0054,
+   "shots": 8000,
+   "twoq_transpiled": 117,
+   "twoq_V": 39,
+   "oriented": null,
+   "phys": [
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    97,
+    107
+   ]
+  },
+  {
+   "name": "rl_rd53_138",
+   "tag": "llmW",
+   "region": 0,
+   "p0_ideal": 1.0,
+   "p0_hw": 0.6584,
+   "sigma": 0.0053,
+   "shots": 8000,
+   "twoq_transpiled": 112,
+   "twoq_V": 30,
+   "oriented": null,
+   "phys": [
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    97,
+    107
+   ]
+  },
+  {
+   "name": "rl_rd53_138",
+   "tag": "qcp",
+   "region": 0,
+   "p0_ideal": 1.0,
+   "p0_hw": 0.633,
+   "sigma": 0.0054,
+   "shots": 8000,
+   "twoq_transpiled": 107,
+   "twoq_V": 33,
+   "oriented": null,
+   "phys": [
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    97,
+    107
+   ]
+  },
+  {
+   "name": "mod_incr_3b",
+   "tag": "ref",
+   "region": 0,
+   "p0_ideal": 1.0,
+   "p0_hw": 0.734,
+   "sigma": 0.0049,
+   "shots": 8000,
+   "twoq_transpiled": 72,
+   "twoq_V": 27,
+   "oriented": null,
+   "phys": [
+    84,
+    85,
+    86,
+    87,
+    88,
+    97
+   ]
+  },
+  {
+   "name": "mod_incr_3b",
+   "tag": "sub",
+   "region": 0,
+   "p0_ideal": 1.0,
+   "p0_hw": 0.7654,
+   "sigma": 0.0047,
+   "shots": 8000,
+   "twoq_transpiled": 60,
+   "twoq_V": 15,
+   "oriented": null,
+   "phys": [
+    84,
+    85,
+    86,
+    87,
+    88,
+    97
+   ]
+  },
+  {
+   "name": "mod_incr_3b",
+   "tag": "greedy",
+   "region": 0,
+   "p0_ideal": 0.0625,
+   "p0_hw": 0.1098,
+   "sigma": 0.0035,
+   "shots": 8000,
+   "twoq_transpiled": 60,
+   "twoq_V": 15,
+   "oriented": null,
+   "phys": [
+    84,
+    85,
+    86,
+    87,
+    88,
+    97
+   ]
+  },
+  {
+   "name": "mod_incr_3b",
+   "tag": "llmS",
+   "region": 0,
+   "p0_ideal": 1.0,
+   "p0_hw": 0.7996,
+   "sigma": 0.0045,
+   "shots": 8000,
+   "twoq_transpiled": 59,
+   "twoq_V": 10,
+   "oriented": null,
+   "phys": [
+    84,
+    85,
+    86,
+    87,
+    88,
+    97
+   ]
+  },
+  {
+   "name": "mod_incr_3b",
+   "tag": "qcp",
+   "region": 0,
+   "p0_ideal": 1.0,
+   "p0_hw": 0.7782,
+   "sigma": 0.0046,
+   "shots": 8000,
+   "twoq_transpiled": 72,
+   "twoq_V": 13,
+   "oriented": null,
+   "phys": [
+    84,
+    85,
+    86,
+    87,
+    88,
+    97
+   ]
+  },
+  {
+   "name": "half_uncomputed",
+   "tag": "ref",
+   "region": 0,
+   "p0_ideal": 1.0,
+   "p0_hw": 0.8261,
+   "sigma": 0.0042,
+   "shots": 8000,
+   "twoq_transpiled": 60,
+   "twoq_V": 19,
+   "oriented": null,
+   "phys": [
+    84,
+    85,
+    86,
+    87,
+    88
+   ]
+  },
+  {
+   "name": "half_uncomputed",
+   "tag": "sub",
+   "region": 0,
+   "p0_ideal": 1.0,
+   "p0_hw": 0.8536,
+   "sigma": 0.004,
+   "shots": 8000,
+   "twoq_transpiled": 49,
+   "twoq_V": 10,
+   "oriented": null,
+   "phys": [
+    84,
+    85,
+    86,
+    87,
+    88
+   ]
+  },
+  {
+   "name": "half_uncomputed",
+   "tag": "greedy",
+   "region": 0,
+   "p0_ideal": 0.25,
+   "p0_hw": 0.2417,
+   "sigma": 0.0048,
+   "shots": 8000,
+   "twoq_transpiled": 49,
+   "twoq_V": 10,
+   "oriented": null,
+   "phys": [
+    84,
+    85,
+    86,
+    87,
+    88
+   ]
+  },
+  {
+   "name": "half_uncomputed",
+   "tag": "qcp",
+   "region": 0,
+   "p0_ideal": 1.0,
+   "p0_hw": 0.882,
+   "sigma": 0.0036,
+   "shots": 8000,
+   "twoq_transpiled": 41,
+   "twoq_V": 8,
+   "oriented": null,
+   "phys": [
+    84,
+    85,
+    86,
+    87,
+    88
+   ]
+  }
+ ],
+ "metrics": "{'caller': 'qiskit_ibm_runtime~sampler.py', 'qiskit_version': 'qiskit_ibm_runtime-0.46.1,qiskit-2.4.1*,qiskit_aer-0.17.2*,qiskit_experiments-0.13.0,qiskit_machine_learning-0.9.0', 'timestamps': {'created': '2026-10-24T13:50:22.785381Z', 'finished': '2026-10-24T13:54:29.0901Z', 'running': '2026-10-24T13:50:23.894009Z'}, 'bss': {'seconds': 58}, 'usage': {'quantum_seconds': 58, 'seconds': 58, 'status': 'complete'}}",
+ "usage_after": 827
+}

@@ -1,0 +1,19 @@
+{
+ "circuit": "rl_rd32_272",
+ "n": 5,
+ "pins": 2,
+ "exact": 21,
+ "v1": 18,
+ "v1_cleanup": 18,
+ "lib": "basic",
+ "resynth": 9,
+ "resynth_dev": 1.4432899320127035e-15,
+ "resynth_s": 225.8,
+ "v2": 8,
+ "v2_source": "gpu_search",
+ "resynth_true": 9,
+ "gates3q": [],
+ "v2_true": 8,
+ "v2_true_source": "resynth",
+ "v2_previous": 9
+}

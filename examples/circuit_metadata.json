@@ -1,0 +1,11 @@
+{
+  "num_qubits": 6,
+  "num_clbits": 3,
+  "gate_count": 35,
+  "toffoli_count": 0,
+  "creation_parameters": {
+    "qubits": 2,
+    "ancillas": 4,
+    "controlling_anc": 3
+  }
+}

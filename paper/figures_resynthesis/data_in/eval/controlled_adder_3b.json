@@ -1,0 +1,20 @@
+{
+ "circuit": "controlled_adder_3b",
+ "n": 10,
+ "pins": 3,
+ "exact": 78,
+ "v1": 48,
+ "v1_cleanup": 48,
+ "lib": "basic",
+ "resynth": 31,
+ "resynth_dev": 6.106226635438361e-15,
+ "resynth_s": 405.6,
+ "v2": 27,
+ "v2_source": "gpu_search",
+ "claude_S": 40,
+ "resynth_true": 31,
+ "gates3q": [],
+ "v2_true": 27,
+ "v2_true_source": "resynth",
+ "v2_previous": 31
+}

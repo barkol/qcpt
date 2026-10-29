@@ -1,0 +1,95 @@
+{
+ "skipped": {},
+ "post": {
+  "mod_incr_2b": {
+   "cz_before": 40,
+   "cz_after": 31,
+   "k": 4,
+   "cz_segment": 18,
+   "cz_new": 9,
+   "verified": true
+  },
+  "mod_incr_3b": {
+   "cz_before": 83,
+   "cz_after": 83,
+   "k": 6,
+   "cz_segment": 37,
+   "note": "no cheaper circuit found"
+  },
+  "mod_incr_4b": {
+   "cz_before": 137,
+   "cz_after": 137,
+   "k": 8,
+   "cz_segment": 64,
+   "note": "no cheaper circuit found"
+  },
+  "ripple_adder_1b": {
+   "cz_before": 49,
+   "cz_after": 34,
+   "k": 4,
+   "cz_segment": 24,
+   "cz_new": 9,
+   "verified": true
+  },
+  "ripple_carry_adder_2b": {
+   "cz_before": 136,
+   "cz_after": 136,
+   "k": 6,
+   "cz_segment": 62,
+   "note": "no cheaper circuit found"
+  },
+  "ripple_adder_3b": {
+   "cz_before": 191,
+   "cz_after": 191,
+   "k": 8,
+   "cz_segment": 92,
+   "note": "no cheaper circuit found"
+  },
+  "grover_oracle_2c": {
+   "cz_before": 40,
+   "cz_after": 30,
+   "k": 4,
+   "cz_segment": 19,
+   "cz_new": 9,
+   "verified": true
+  },
+  "grover_oracle_mcx3": {
+   "cz_before": 85,
+   "cz_after": 66,
+   "k": 6,
+   "cz_segment": 39,
+   "cz_new": 20,
+   "verified": true
+  },
+  "grover_oracle_mcx4": {
+   "cz_before": 141,
+   "cz_after": 141,
+   "k": 8,
+   "cz_segment": 67,
+   "note": "no cheaper circuit found"
+  },
+  "half_uncomputed_min": {
+   "cz_before": 53,
+   "cz_after": 40,
+   "k": 4,
+   "cz_segment": 29,
+   "cz_new": 16,
+   "verified": true
+  },
+  "half_uncomputed_2c": {
+   "cz_before": 81,
+   "cz_after": 57,
+   "k": 5,
+   "cz_segment": 37,
+   "cz_new": 13,
+   "verified": true
+  },
+  "half_uncomputed_3c": {
+   "cz_before": 138,
+   "cz_after": 138,
+   "k": 7,
+   "cz_segment": 65,
+   "note": "no cheaper circuit found"
+  }
+ }
+}

@@ -1,0 +1,1 @@
+{"circuit": "rl_one-two-three-v3_101", "n": 5, "pins": 2, "exact": 28, "v1": 22, "v1_cleanup": 22, "lib": "basic", "resynth": 15, "resynth_dev": 1.887379141862766e-15, "resynth_s": 226.7, "v2": 14, "v2_source": "template", "resynth_true": 15, "gates3q": [], "v2_true": 14, "v2_true_source": "resynth"}

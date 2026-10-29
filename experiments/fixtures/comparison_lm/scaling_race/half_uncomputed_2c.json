@@ -1,0 +1,1 @@
+{"circuit": "half_uncomputed_2c", "start": 19, "best_known": 0, "final": 8, "reached": false, "wall_s": 4.89, "cpu_s": 37.1, "steps": [{"member": "T1_peel_C", "cost": 8, "round_s": 0.051, "at_s": 0.059, "wall": 0.061}], "winner": "T1_peel_C", "t_best": 0.061, "t_best_core": 0.059, "cpu_s_at_best": 0.6, "dev": 1.4433338214296728e-15, "cx": 8}

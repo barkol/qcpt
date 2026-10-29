@@ -1,0 +1,18 @@
+{
+ "circuit": "rl_rd53_138",
+ "n": 8,
+ "pins": 3,
+ "exact": 52,
+ "v1": 37,
+ "v1_cleanup": 33,
+ "resynth": null,
+ "resynth_s": 333.4,
+ "v2": 23,
+ "v2_source": "gpu_search",
+ "claude_S": 39,
+ "claude_W": 30,
+ "resynth_true": null,
+ "v2_true": 23,
+ "v2_true_source": "cleanup",
+ "v2_previous": 33
+}

@@ -1,0 +1,1 @@
+{"circuit": "controlled_adder_2b", "start": 30, "best_known": 17, "final": 17, "reached": true, "wall_s": 11.87, "cpu_s": 226.0, "steps": [{"member": "B3_basic_l06", "cost": 17, "round_s": 1.503, "at_s": 1.532, "wall": 1.533}], "winner": "B3_basic_l06", "t_best": 1.533, "t_best_core": 1.532, "cpu_s_at_best": 19.0, "dev": 3.77612753259235e-15, "cx": 17}

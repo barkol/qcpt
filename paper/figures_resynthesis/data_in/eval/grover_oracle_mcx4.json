@@ -1,0 +1,1 @@
+{"circuit": "grover_oracle_mcx4", "n": 8, "pins": 3, "exact": 37, "v1": 19, "v1_cleanup": 19, "lib": "basic", "resynth": 18, "resynth_dev": 2.1094237467877974e-15, "resynth_s": 356.6, "v2": 18, "v2_source": "resynth", "claude_S": 18, "claude_W": 18, "resynth_true": 18, "gates3q": [], "v2_true": 18, "v2_true_source": "resynth"}

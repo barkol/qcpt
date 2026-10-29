@@ -1,0 +1,1 @@
+{"circuit": "rl_4mod5-bdd_287", "n": 7, "pins": 3, "exact": 27, "v1": 18, "v1_cleanup": 18, "lib": "basic", "resynth": 12, "resynth_dev": 1.887379141862766e-15, "resynth_s": 346.9, "v2": 10, "v2_source": "template", "claude_S": 10, "resynth_true": 12, "gates3q": [], "v2_true": 10, "v2_true_source": "resynth"}

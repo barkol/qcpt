@@ -1,0 +1,36 @@
+{
+ "job_id": "dbfo5dcq1lrs73f2och0",
+ "backend": "ibm_aachen",
+ "shots": 8000,
+ "mode": "job",
+ "options": "dynamical_decoupling XY4",
+ "order": [
+  [
+   "mod_incr_3b",
+   "qiskit"
+  ],
+  [
+   "mod_incr_3b",
+   "qct"
+  ]
+ ],
+ "layout": [
+  [
+   154,
+   152,
+   139,
+   135,
+   153,
+   155
+  ],
+  [
+   154,
+   152,
+   139,
+   135,
+   153,
+   155
+  ]
+ ],
+ "sent": "2026-10-26 17:41:25"
+}

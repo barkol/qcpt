@@ -1,0 +1,5 @@
+depolarizing noise p2q=0.01, p1q=0.001
+circuit                   F_exact   F_ours     gain
+controlled_adder_2b        0.6766   0.7835  +0.1070
+grover_oracle_mcx4         0.7393   0.8573  +0.1180
+nested_compute_uncompute   0.8153   0.9000  +0.0847

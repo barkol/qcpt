@@ -1,0 +1,1 @@
+{"circuit": "ripple_carry_adder_2b", "start": 21, "best_known": 15, "final": 15, "reached": true, "wall_s": 1.01, "cpu_s": 9.2, "steps": [{"member": "T4_nopeel_A", "cost": 15, "round_s": 0.986, "at_s": 1.003, "wall": 1.004}], "winner": "T4_nopeel_A", "t_best": 1.004, "t_best_core": 1.003, "cpu_s_at_best": 9.1, "dev": 1.6655107459620024e-15, "cx": 15}

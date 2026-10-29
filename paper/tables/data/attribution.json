@@ -1,0 +1,107 @@
+{
+ "exact": {
+  "twoq": 281,
+  "infid": 2.743741842371418
+ },
+ "C": {
+  "twoq": 221,
+  "infid": 2.192024866963395,
+  "certified": 12,
+  "pairs_C": 10,
+  "pairs_W": 0,
+  "gadgets_R": 0,
+  "drops_R": 0
+ },
+ "CW": {
+  "twoq": 197,
+  "infid": 2.0030489492740116,
+  "certified": 12,
+  "pairs_C": 10,
+  "pairs_W": 4,
+  "gadgets_R": 0,
+  "drops_R": 0
+ },
+ "CWR": {
+  "twoq": 194,
+  "infid": 1.9721818823013633,
+  "certified": 12,
+  "pairs_C": 10,
+  "pairs_W": 4,
+  "gadgets_R": 1,
+  "drops_R": 0
+ },
+ "per_circuit": {
+  "ripple_carry_adder_2b": {
+   "exact": 33,
+   "C": 27,
+   "CW": 21,
+   "CWR": 21
+  },
+  "controlled_adder_2b": {
+   "exact": 48,
+   "C": 48,
+   "CW": 30,
+   "CWR": 30
+  },
+  "grover_oracle_mcx3": {
+   "exact": 25,
+   "C": 13,
+   "CW": 13,
+   "CWR": 13
+  },
+  "grover_oracle_mcx4": {
+   "exact": 37,
+   "C": 19,
+   "CW": 19,
+   "CWR": 19
+  },
+  "grover_native_mcx4": {
+   "exact": 36,
+   "C": 36,
+   "CW": 36,
+   "CWR": 36
+  },
+  "compute_uncompute_pair": {
+   "exact": 13,
+   "C": 7,
+   "CW": 7,
+   "CWR": 7
+  },
+  "nested_compute_uncompute": {
+   "exact": 25,
+   "C": 13,
+   "CW": 13,
+   "CWR": 13
+  },
+  "live_and_chain": {
+   "exact": 12,
+   "C": 12,
+   "CW": 12,
+   "CWR": 12
+  },
+  "phase_sensitive_oracle": {
+   "exact": 6,
+   "C": 6,
+   "CW": 6,
+   "CWR": 6
+  },
+  "single_live_toffoli": {
+   "exact": 6,
+   "C": 6,
+   "CW": 6,
+   "CWR": 6
+  },
+  "half_uncomputed": {
+   "exact": 19,
+   "C": 13,
+   "CW": 13,
+   "CWR": 10
+  },
+  "adder_live_carry": {
+   "exact": 21,
+   "C": 21,
+   "CW": 21,
+   "CWR": 21
+  }
+ }
+}

@@ -1,0 +1,1 @@
+{"circuit": "rl_rd32-v0_66", "n": 4, "pins": 1, "exact": 14, "v1": 11, "v1_cleanup": 9, "lib": "basic", "resynth": 7, "resynth_dev": 9.992007221626409e-16, "resynth_s": 59.0, "v2": 7, "v2_source": "resynth", "resynth_true": 7, "gates3q": [], "v2_true": 7, "v2_true_source": "resynth"}

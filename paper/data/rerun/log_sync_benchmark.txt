@@ -1,0 +1,5 @@
+Quantum synchronizing-word / resetting circuits (Stempin et al., arXiv:2504.01106 / 2502.09522)
+
+resetting_n8_L3        q= 7 ccx=21 2q 129-> 93 (27.9%)  infid 0.4262->0.3291 (22.8%)  verified=True
+resetting_n8_L5        q= 9 ccx=35 2q 215->155 (27.9%)  infid 0.6038->0.4859 (19.5%)  verified=True
+resetting_n8_L7        q=11 ccx=49 2q 301->217 (27.9%)  infid 0.7264->0.6060 (16.6%)  verified=True

@@ -1,0 +1,1 @@
+{"circuit": "rl_fredkin_6", "n": 3, "pins": 0, "exact": 18, "v1": 12, "v1_cleanup": 12, "lib": "full", "resynth": 7, "resynth_dev": 1.4432899320127035e-15, "resynth_s": 25.8, "v2": 7, "v2_source": "resynth", "resynth_true": 7, "gates3q": [], "v2_true": 7, "v2_true_source": "resynth"}

@@ -1,0 +1,1 @@
+{"circuit": "half_uncomputed_4c", "n": 9, "pins": 3, "exact": 43, "v1": 25, "v1_cleanup": 25, "lib": "basic", "resynth": 19, "resynth_dev": 2.55351295663786e-15, "resynth_s": 514.5, "v2": 19, "v2_source": "resynth", "claude_S": 19, "resynth_true": 19, "gates3q": [], "v2_true": 19, "v2_true_source": "resynth"}

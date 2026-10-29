@@ -1,0 +1,26 @@
+[
+ {
+  "file": "urf1_149.real",
+  "lines": 9,
+  "gates": 11554,
+  "status": "nieuruchomiony: wiekszy niz urf5_158 (10276 bramek), ktory przekroczyl limit 3600 s"
+ },
+ {
+  "file": "urf3_155.real",
+  "lines": 10,
+  "gates": 26468,
+  "status": "nieuruchomiony: wiekszy niz urf5_158 (10276 bramek), ktory przekroczyl limit 3600 s"
+ },
+ {
+  "file": "urf4_187.real",
+  "lines": 11,
+  "gates": 32004,
+  "status": "nieuruchomiony: wiekszy niz urf5_158 (10276 bramek), ktory przekroczyl limit 3600 s"
+ },
+ {
+  "file": "urf6_160.real",
+  "lines": 15,
+  "gates": 10740,
+  "status": "nieuruchomiony: wiekszy niz urf5_158 (10276 bramek), ktory przekroczyl limit 3600 s"
+ }
+]

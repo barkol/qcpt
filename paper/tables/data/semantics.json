@@ -1,0 +1,274 @@
+{
+ "exact": {
+  "twoq": 281,
+  "infid": 2.743741842371418,
+  "bad_sub": 0,
+  "bad_prog": 0,
+  "per": {
+   "ripple_carry_adder_2b": {
+    "twoq": 33,
+    "sub": true,
+    "prog": true
+   },
+   "controlled_adder_2b": {
+    "twoq": 48,
+    "sub": true,
+    "prog": true
+   },
+   "grover_oracle_mcx3": {
+    "twoq": 25,
+    "sub": true,
+    "prog": true
+   },
+   "grover_oracle_mcx4": {
+    "twoq": 37,
+    "sub": true,
+    "prog": true
+   },
+   "grover_native_mcx4": {
+    "twoq": 36,
+    "sub": true,
+    "prog": true
+   },
+   "compute_uncompute_pair": {
+    "twoq": 13,
+    "sub": true,
+    "prog": true
+   },
+   "nested_compute_uncompute": {
+    "twoq": 25,
+    "sub": true,
+    "prog": true
+   },
+   "live_and_chain": {
+    "twoq": 12,
+    "sub": true,
+    "prog": true
+   },
+   "phase_sensitive_oracle": {
+    "twoq": 6,
+    "sub": true,
+    "prog": true
+   },
+   "single_live_toffoli": {
+    "twoq": 6,
+    "sub": true,
+    "prog": true
+   },
+   "half_uncomputed": {
+    "twoq": 19,
+    "sub": true,
+    "prog": true
+   },
+   "adder_live_carry": {
+    "twoq": 21,
+    "sub": true,
+    "prog": true
+   }
+  }
+ },
+ "greedy": {
+  "twoq": 167,
+  "infid": 1.7028191565193362,
+  "bad_sub": 6,
+  "bad_prog": 0,
+  "per": {
+   "ripple_carry_adder_2b": {
+    "twoq": 21,
+    "sub": true,
+    "prog": true
+   },
+   "controlled_adder_2b": {
+    "twoq": 24,
+    "sub": false,
+    "prog": true
+   },
+   "grover_oracle_mcx3": {
+    "twoq": 13,
+    "sub": true,
+    "prog": true
+   },
+   "grover_oracle_mcx4": {
+    "twoq": 19,
+    "sub": true,
+    "prog": true
+   },
+   "grover_native_mcx4": {
+    "twoq": 36,
+    "sub": true,
+    "prog": true
+   },
+   "compute_uncompute_pair": {
+    "twoq": 7,
+    "sub": true,
+    "prog": true
+   },
+   "nested_compute_uncompute": {
+    "twoq": 13,
+    "sub": true,
+    "prog": true
+   },
+   "live_and_chain": {
+    "twoq": 6,
+    "sub": false,
+    "prog": true
+   },
+   "phase_sensitive_oracle": {
+    "twoq": 3,
+    "sub": false,
+    "prog": true
+   },
+   "single_live_toffoli": {
+    "twoq": 3,
+    "sub": false,
+    "prog": true
+   },
+   "half_uncomputed": {
+    "twoq": 10,
+    "sub": false,
+    "prog": true
+   },
+   "adder_live_carry": {
+    "twoq": 12,
+    "sub": false,
+    "prog": true
+   }
+  }
+ },
+ "sub": {
+  "twoq": 194,
+  "infid": 1.9721818823013633,
+  "bad_sub": 0,
+  "bad_prog": 0,
+  "per": {
+   "ripple_carry_adder_2b": {
+    "twoq": 21,
+    "sub": true,
+    "prog": true
+   },
+   "controlled_adder_2b": {
+    "twoq": 30,
+    "sub": true,
+    "prog": true
+   },
+   "grover_oracle_mcx3": {
+    "twoq": 13,
+    "sub": true,
+    "prog": true
+   },
+   "grover_oracle_mcx4": {
+    "twoq": 19,
+    "sub": true,
+    "prog": true
+   },
+   "grover_native_mcx4": {
+    "twoq": 36,
+    "sub": true,
+    "prog": true
+   },
+   "compute_uncompute_pair": {
+    "twoq": 7,
+    "sub": true,
+    "prog": true
+   },
+   "nested_compute_uncompute": {
+    "twoq": 13,
+    "sub": true,
+    "prog": true
+   },
+   "live_and_chain": {
+    "twoq": 12,
+    "sub": true,
+    "prog": true
+   },
+   "phase_sensitive_oracle": {
+    "twoq": 6,
+    "sub": true,
+    "prog": true
+   },
+   "single_live_toffoli": {
+    "twoq": 6,
+    "sub": true,
+    "prog": true
+   },
+   "half_uncomputed": {
+    "twoq": 10,
+    "sub": true,
+    "prog": true
+   },
+   "adder_live_carry": {
+    "twoq": 21,
+    "sub": true,
+    "prog": true
+   }
+  }
+ },
+ "prog": {
+  "twoq": 167,
+  "infid": 1.7028191565193362,
+  "bad_sub": 5,
+  "bad_prog": 0,
+  "per": {
+   "ripple_carry_adder_2b": {
+    "twoq": 21,
+    "sub": true,
+    "prog": true
+   },
+   "controlled_adder_2b": {
+    "twoq": 24,
+    "sub": false,
+    "prog": true
+   },
+   "grover_oracle_mcx3": {
+    "twoq": 13,
+    "sub": true,
+    "prog": true
+   },
+   "grover_oracle_mcx4": {
+    "twoq": 19,
+    "sub": true,
+    "prog": true
+   },
+   "grover_native_mcx4": {
+    "twoq": 36,
+    "sub": true,
+    "prog": true
+   },
+   "compute_uncompute_pair": {
+    "twoq": 7,
+    "sub": true,
+    "prog": true
+   },
+   "nested_compute_uncompute": {
+    "twoq": 13,
+    "sub": true,
+    "prog": true
+   },
+   "live_and_chain": {
+    "twoq": 6,
+    "sub": false,
+    "prog": true
+   },
+   "phase_sensitive_oracle": {
+    "twoq": 3,
+    "sub": false,
+    "prog": true
+   },
+   "single_live_toffoli": {
+    "twoq": 3,
+    "sub": false,
+    "prog": true
+   },
+   "half_uncomputed": {
+    "twoq": 10,
+    "sub": true,
+    "prog": true
+   },
+   "adder_live_carry": {
+    "twoq": 12,
+    "sub": false,
+    "prog": true
+   }
+  }
+ }
+}

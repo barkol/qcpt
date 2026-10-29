@@ -1,0 +1,6 @@
+COST 12
+G mg3 1 2 3
+G ccx 0 3 5
+G mg3 1 2 3
+CERT ok
+END

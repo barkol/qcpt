@@ -1,0 +1,1 @@
+{"circuit": "adder_live_carry", "n": 5, "pins": 0, "exact": 21, "v1": 21, "v1_cleanup": 21, "lib": "basic", "resynth": 16, "resynth_dev": 6.661338147750939e-16, "resynth_s": 166.9, "v2": 12, "v2_source": "gpu_search", "resynth_true": 16, "gates3q": [], "v2_true": 13, "v2_true_source": "resynth", "v2_previous": 13}

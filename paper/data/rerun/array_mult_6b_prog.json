@@ -1,0 +1,12 @@
+{
+ "name": "array_mult_6b",
+ "tag": "prog",
+ "equivalent": false,
+ "method": "qcec",
+ "t_s": 937.7,
+ "detail": {
+  "equivalence_criterion": "not_equivalent"
+ },
+ "twoq": 108,
+ "finished": "Thu Oct  1 23:20:59 2026"
+}

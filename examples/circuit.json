@@ -1,0 +1,296 @@
+{
+  "num_qubits": 6,
+  "num_clbits": 3,
+  "instructions": [
+    {
+      "name": "ccx",
+      "qubits": [
+        3,
+        4,
+        5
+      ],
+      "clbits": []
+    },
+    {
+      "name": "x",
+      "qubits": [
+        5
+      ],
+      "clbits": []
+    },
+    {
+      "name": "ccx",
+      "qubits": [
+        3,
+        5,
+        4
+      ],
+      "clbits": []
+    },
+    {
+      "name": "x",
+      "qubits": [
+        5
+      ],
+      "clbits": []
+    },
+    {
+      "name": "x",
+      "qubits": [
+        5
+      ],
+      "clbits": []
+    },
+    {
+      "name": "x",
+      "qubits": [
+        4
+      ],
+      "clbits": []
+    },
+    {
+      "name": "ccx",
+      "qubits": [
+        4,
+        5,
+        3
+      ],
+      "clbits": []
+    },
+    {
+      "name": "x",
+      "qubits": [
+        4
+      ],
+      "clbits": []
+    },
+    {
+      "name": "x",
+      "qubits": [
+        5
+      ],
+      "clbits": []
+    },
+    {
+      "name": "x",
+      "qubits": [
+        5
+      ],
+      "clbits": []
+    },
+    {
+      "name": "ccx",
+      "qubits": [
+        3,
+        5,
+        4
+      ],
+      "clbits": []
+    },
+    {
+      "name": "x",
+      "qubits": [
+        5
+      ],
+      "clbits": []
+    },
+    {
+      "name": "ccx",
+      "qubits": [
+        3,
+        4,
+        5
+      ],
+      "clbits": []
+    },
+    {
+      "name": "ccx",
+      "qubits": [
+        3,
+        5,
+        4
+      ],
+      "clbits": []
+    },
+    {
+      "name": "x",
+      "qubits": [
+        4
+      ],
+      "clbits": []
+    },
+    {
+      "name": "ccx",
+      "qubits": [
+        4,
+        5,
+        3
+      ],
+      "clbits": []
+    },
+    {
+      "name": "x",
+      "qubits": [
+        4
+      ],
+      "clbits": []
+    },
+    {
+      "name": "ccx",
+      "qubits": [
+        3,
+        5,
+        4
+      ],
+      "clbits": []
+    },
+    {
+      "name": "ccx",
+      "qubits": [
+        3,
+        4,
+        5
+      ],
+      "clbits": []
+    },
+    {
+      "name": "x",
+      "qubits": [
+        5
+      ],
+      "clbits": []
+    },
+    {
+      "name": "ccx",
+      "qubits": [
+        4,
+        5,
+        3
+      ],
+      "clbits": []
+    },
+    {
+      "name": "x",
+      "qubits": [
+        5
+      ],
+      "clbits": []
+    },
+    {
+      "name": "ccx",
+      "qubits": [
+        3,
+        4,
+        5
+      ],
+      "clbits": []
+    },
+    {
+      "name": "ccx",
+      "qubits": [
+        4,
+        5,
+        3
+      ],
+      "clbits": []
+    },
+    {
+      "name": "ccx",
+      "qubits": [
+        3,
+        4,
+        5
+      ],
+      "clbits": []
+    },
+    {
+      "name": "x",
+      "qubits": [
+        5
+      ],
+      "clbits": []
+    },
+    {
+      "name": "ccx",
+      "qubits": [
+        3,
+        5,
+        4
+      ],
+      "clbits": []
+    },
+    {
+      "name": "x",
+      "qubits": [
+        5
+      ],
+      "clbits": []
+    },
+    {
+      "name": "ccx",
+      "qubits": [
+        3,
+        4,
+        5
+      ],
+      "clbits": []
+    },
+    {
+      "name": "ccx",
+      "qubits": [
+        3,
+        5,
+        4
+      ],
+      "clbits": []
+    },
+    {
+      "name": "ccx",
+      "qubits": [
+        3,
+        4,
+        5
+      ],
+      "clbits": []
+    },
+    {
+      "name": "barrier",
+      "qubits": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "clbits": []
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        3
+      ],
+      "clbits": [
+        2
+      ]
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        4
+      ],
+      "clbits": [
+        1
+      ]
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        5
+      ],
+      "clbits": [
+        0
+      ]
+    }
+  ]
+}

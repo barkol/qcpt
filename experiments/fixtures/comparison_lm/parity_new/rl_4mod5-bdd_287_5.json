@@ -1,0 +1,1 @@
+{"circuit": "rl_4mod5-bdd_287", "start": 18, "best_known": 10, "final": 10, "reached": true, "wall_s": 0.37, "cpu_s": 6.0, "steps": [{"member": "T1_peel_C", "cost": 10, "round_s": 0.31, "at_s": 0.359, "wall": 0.361}], "winner": "T1_peel_C", "t_best": 0.361, "t_best_core": 0.359, "cpu_s_at_best": 6.0, "dev": 1.887388942049851e-15, "cx": 10}

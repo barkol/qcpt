@@ -1,0 +1,1 @@
+{"circuit": "rl_miller_11", "n": 3, "pins": 0, "exact": 20, "v1": 14, "v1_cleanup": 14, "lib": "full", "resynth": 8, "resynth_dev": 1.4432899320127035e-15, "resynth_s": 31.6, "v2": 8, "v2_source": "resynth", "resynth_true": 8, "gates3q": [], "v2_true": 8, "v2_true_source": "resynth"}

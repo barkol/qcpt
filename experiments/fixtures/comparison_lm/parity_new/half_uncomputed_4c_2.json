@@ -1,0 +1,1 @@
+{"circuit": "half_uncomputed_4c", "start": 25, "best_known": 19, "final": 19, "reached": true, "wall_s": 0.89, "cpu_s": 10.4, "steps": [{"member": "B3_basic_l06", "cost": 19, "round_s": 0.726, "at_s": 0.864, "wall": 0.866}], "winner": "B3_basic_l06", "t_best": 0.866, "t_best_core": 0.864, "cpu_s_at_best": 10.4, "dev": 2.5542559365089743e-15, "cx": 19}

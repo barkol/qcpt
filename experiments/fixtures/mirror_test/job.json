@@ -1,0 +1,102 @@
+{
+ "job_id": "davcn5o4oijs73e7b5m0",
+ "backend": "ibm_marrakesh",
+ "shots": 4000,
+ "order": [
+  [
+   "half_uncomputed",
+   "ref"
+  ],
+  [
+   "half_uncomputed",
+   "sub"
+  ],
+  [
+   "half_uncomputed",
+   "greedy"
+  ],
+  [
+   "controlled_adder_2b",
+   "ref"
+  ],
+  [
+   "controlled_adder_2b",
+   "sub"
+  ],
+  [
+   "controlled_adder_2b",
+   "greedy"
+  ],
+  [
+   "nested_compute_uncompute",
+   "ref"
+  ],
+  [
+   "nested_compute_uncompute",
+   "sub"
+  ],
+  [
+   "nested_compute_uncompute",
+   "greedy"
+  ],
+  [
+   "single_live_toffoli",
+   "ref"
+  ],
+  [
+   "single_live_toffoli",
+   "sub"
+  ],
+  [
+   "single_live_toffoli",
+   "greedy"
+  ],
+  [
+   "live_and_chain",
+   "ref"
+  ],
+  [
+   "live_and_chain",
+   "sub"
+  ],
+  [
+   "live_and_chain",
+   "greedy"
+  ]
+ ],
+ "p0_ideal": [
+  0.9999999999999938,
+  0.9999999999999962,
+  0.2499999999999991,
+  0.9999999999999847,
+  0.9999999999999893,
+  0.316406249999997,
+  0.999999999999992,
+  0.9999999999999947,
+  0.9999999999999947,
+  0.9999999999999976,
+  0.9999999999999976,
+  0.5624999999999987,
+  0.9999999999999953,
+  0.9999999999999953,
+  0.3906249999999987
+ ],
+ "twoq_t": [
+  60,
+  49,
+  49,
+  158,
+  137,
+  125,
+  78,
+  56,
+  56,
+  14,
+  18,
+  13,
+  28,
+  28,
+  26
+ ],
+ "sent": "Thu Oct  1 23:07:35 2026"
+}

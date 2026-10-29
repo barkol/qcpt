@@ -1,0 +1,137 @@
+[
+ {
+  "name": "half_uncomputed",
+  "tag": "ref",
+  "p0_ideal": 1.0,
+  "p0_noisy": 0.8892,
+  "sigma": 0.005,
+  "twoq_V": 19,
+  "twoq_transpiled": 60
+ },
+ {
+  "name": "half_uncomputed",
+  "tag": "sub",
+  "p0_ideal": 1.0,
+  "p0_noisy": 0.904,
+  "sigma": 0.0047,
+  "twoq_V": 10,
+  "twoq_transpiled": 49
+ },
+ {
+  "name": "half_uncomputed",
+  "tag": "greedy",
+  "p0_ideal": 0.25,
+  "p0_noisy": 0.2313,
+  "sigma": 0.0067,
+  "twoq_V": 10,
+  "twoq_transpiled": 49
+ },
+ {
+  "name": "controlled_adder_2b",
+  "tag": "ref",
+  "p0_ideal": 1.0,
+  "p0_noisy": 0.6987,
+  "sigma": 0.0073,
+  "twoq_V": 48,
+  "twoq_transpiled": 158
+ },
+ {
+  "name": "controlled_adder_2b",
+  "tag": "sub",
+  "p0_ideal": 1.0,
+  "p0_noisy": 0.7188,
+  "sigma": 0.0071,
+  "twoq_V": 30,
+  "twoq_transpiled": 137
+ },
+ {
+  "name": "controlled_adder_2b",
+  "tag": "greedy",
+  "p0_ideal": 0.3164,
+  "p0_noisy": 0.2355,
+  "sigma": 0.0067,
+  "twoq_V": 24,
+  "twoq_transpiled": 125
+ },
+ {
+  "name": "nested_compute_uncompute",
+  "tag": "ref",
+  "p0_ideal": 1.0,
+  "p0_noisy": 0.815,
+  "sigma": 0.0061,
+  "twoq_V": 25,
+  "twoq_transpiled": 78
+ },
+ {
+  "name": "nested_compute_uncompute",
+  "tag": "sub",
+  "p0_ideal": 1.0,
+  "p0_noisy": 0.8605,
+  "sigma": 0.0055,
+  "twoq_V": 13,
+  "twoq_transpiled": 56
+ },
+ {
+  "name": "nested_compute_uncompute",
+  "tag": "greedy",
+  "p0_ideal": 1.0,
+  "p0_noisy": 0.8605,
+  "sigma": 0.0055,
+  "twoq_V": 13,
+  "twoq_transpiled": 56
+ },
+ {
+  "name": "single_live_toffoli",
+  "tag": "ref",
+  "p0_ideal": 1.0,
+  "p0_noisy": 0.9702,
+  "sigma": 0.0027,
+  "twoq_V": 6,
+  "twoq_transpiled": 14
+ },
+ {
+  "name": "single_live_toffoli",
+  "tag": "sub",
+  "p0_ideal": 1.0,
+  "p0_noisy": 0.9633,
+  "sigma": 0.003,
+  "twoq_V": 6,
+  "twoq_transpiled": 18
+ },
+ {
+  "name": "single_live_toffoli",
+  "tag": "greedy",
+  "p0_ideal": 0.5625,
+  "p0_noisy": 0.5437,
+  "sigma": 0.0079,
+  "twoq_V": 3,
+  "twoq_transpiled": 13
+ },
+ {
+  "name": "live_and_chain",
+  "tag": "ref",
+  "p0_ideal": 1.0,
+  "p0_noisy": 0.917,
+  "sigma": 0.0044,
+  "twoq_V": 12,
+  "twoq_transpiled": 28
+ },
+ {
+  "name": "live_and_chain",
+  "tag": "sub",
+  "p0_ideal": 1.0,
+  "p0_noisy": 0.917,
+  "sigma": 0.0044,
+  "twoq_V": 12,
+  "twoq_transpiled": 28
+ },
+ {
+  "name": "live_and_chain",
+  "tag": "greedy",
+  "p0_ideal": 0.3906,
+  "p0_noisy": 0.3583,
+  "sigma": 0.0076,
+  "twoq_V": 6,
+  "twoq_transpiled": 26
+ }
+]

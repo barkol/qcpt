@@ -1,0 +1,19 @@
+circuit                       q ccx  truth  naive  gated  rp
+------------------------------------------------------------
+ripple_carry_adder_2b         6   4   safe     ok     ok   4
+controlled_adder_2b           7   8 UNSAFE  WRONG     ok   0
+grover_oracle_mcx3            6   4   safe     ok     ok   4
+grover_oracle_mcx4            8   6   safe     ok     ok   6
+grover_native_mcx4            5   0   safe     ok     ok   0
+compute_uncompute_pair        4   2   safe     ok     ok   2
+nested_compute_uncompute      6   4   safe     ok     ok   4
+live_and_chain                5   2 UNSAFE  WRONG     ok   0
+phase_sensitive_oracle        3   1 UNSAFE  WRONG     ok   0
+single_live_toffoli           3   1 UNSAFE  WRONG     ok   0
+half_uncomputed               5   3 UNSAFE  WRONG     ok   2
+adder_live_carry              5   3 UNSAFE  WRONG     ok   0
+------------------------------------------------------------
+
+HEADLINE: naive substitution silently corrupts 6 of 12 circuits; the verification gate yields 0 errors while still applying 22 valid relative-phase decompositions.
+
+Table written to: <run>/experiments/safety_results.md

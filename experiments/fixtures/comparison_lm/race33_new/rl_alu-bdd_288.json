@@ -1,0 +1,1 @@
+{"circuit": "rl_alu-bdd_288", "start": 26, "best_known": 11, "final": 11, "reached": true, "wall_s": 8.03, "cpu_s": 161.5, "steps": [{"member": "T3_nopeel_C", "cost": 11, "round_s": 0.663, "at_s": 0.7, "wall": 0.701}], "winner": "T3_nopeel_C", "t_best": 0.701, "t_best_core": 0.7, "cpu_s_at_best": 12.6, "dev": 2.558614829473786e-15, "cx": 11}

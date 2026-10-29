@@ -1,0 +1,1 @@
+{"circuit": "nested_compute_uncompute", "start": 13, "best_known": 12, "final": 12, "reached": true, "wall_s": 22.87, "cpu_s": 420.7, "steps": [{"member": "B3_basic_l06", "cost": 12, "round_s": 1.732, "at_s": 1.751, "wall": 1.753}], "winner": "B3_basic_l06", "t_best": 1.753, "t_best_core": 1.751, "cpu_s_at_best": 40.2, "dev": 1.3324023067744691e-15, "cx": 12}

@@ -1,0 +1,1 @@
+{"circuit": "rl_decod24-enable_125", "start": 15, "best_known": 12, "final": 12, "reached": true, "wall_s": 21.73, "cpu_s": 371.2, "steps": [{"member": "B3_basic_l06", "cost": 12, "round_s": 1.749, "at_s": 1.773, "wall": 1.774}], "winner": "B3_basic_l06", "t_best": 1.774, "t_best_core": 1.773, "cpu_s_at_best": 13.7, "dev": 1.4433010986788477e-15, "cx": 12}

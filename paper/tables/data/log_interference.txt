@@ -1,0 +1,2 @@
+editor {'greedy': {'twoq': 3, 'sub': False, 'prog': False}, 'sub': {'twoq': 6, 'sub': True, 'prog': True}, 'prog': {'twoq': 6, 'sub': True, 'prog': True}, 'exact_twoq': 6}
+fig1b {'greedy': {'twoq': 3, 'sub': False, 'prog': False}, 'sub': {'twoq': 3, 'sub': True, 'prog': True}, 'prog': {'twoq': 3, 'sub': True, 'prog': True}, 'exact_twoq': 6}

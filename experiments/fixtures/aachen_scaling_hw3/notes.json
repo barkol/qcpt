@@ -1,0 +1,33 @@
+{
+ "skipped": {},
+ "post": {
+  "mod_incr_5b": {
+   "cz_before": 218,
+   "cz_after": 218,
+   "k": 10,
+   "cz_segment": 87,
+   "note": "no cheaper circuit found"
+  },
+  "ripple_adder_4b": {
+   "cz_before": 282,
+   "cz_after": 282,
+   "k": 10,
+   "cz_segment": 131,
+   "note": "no cheaper circuit found"
+  },
+  "grover_oracle_5c": {
+   "cz_before": 211,
+   "cz_after": 211,
+   "k": 10,
+   "cz_segment": 87,
+   "note": "no cheaper circuit found"
+  },
+  "half_uncomputed_4c": {
+   "cz_before": 189,
+   "cz_after": 189,
+   "k": 9,
+   "cz_segment": 88,
+   "note": "no cheaper circuit found"
+  }
+ }
+}

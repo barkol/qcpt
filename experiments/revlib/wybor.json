@@ -1,0 +1,498 @@
+[
+{
+"file": "3_17_13.real",
+"lines": 3,
+"gates": 6,
+"ccx": 2,
+"constants": "---",
+"pinned": 0
+},
+{
+"file": "3_17_14.real",
+"lines": 3,
+"gates": 6,
+"ccx": 2,
+"constants": "---",
+"pinned": 0
+},
+{
+"file": "4_49_17.real",
+"lines": 4,
+"gates": 12,
+"ccx": 5,
+"constants": "----",
+"pinned": 0
+},
+{
+"file": "4gt11-v1_85.real",
+"lines": 5,
+"gates": 4,
+"ccx": 1,
+"constants": "1----",
+"pinned": 1
+},
+{
+"file": "4gt11_82.real",
+"lines": 5,
+"gates": 12,
+"ccx": 1,
+"constants": "0----",
+"pinned": 1
+},
+{
+"file": "4gt11_83.real",
+"lines": 5,
+"gates": 8,
+"ccx": 1,
+"constants": "0----",
+"pinned": 1
+},
+{
+"file": "4gt11_84.real",
+"lines": 5,
+"gates": 3,
+"ccx": 1,
+"constants": "0----",
+"pinned": 1
+},
+{
+"file": "4mod5-bdd_287.real",
+"lines": 7,
+"gates": 8,
+"ccx": 4,
+"constants": "----101",
+"pinned": 3
+},
+{
+"file": "4mod5-v0_18.real",
+"lines": 5,
+"gates": 9,
+"ccx": 4,
+"constants": "----0",
+"pinned": 1
+},
+{
+"file": "4mod5-v0_19.real",
+"lines": 5,
+"gates": 5,
+"ccx": 2,
+"constants": "----0",
+"pinned": 1
+},
+{
+"file": "4mod5-v0_20.real",
+"lines": 5,
+"gates": 5,
+"ccx": 1,
+"constants": "----0",
+"pinned": 1
+},
+{
+"file": "4mod5-v1_22.real",
+"lines": 5,
+"gates": 5,
+"ccx": 1,
+"constants": "----1",
+"pinned": 1
+},
+{
+"file": "4mod5-v1_23.real",
+"lines": 5,
+"gates": 8,
+"ccx": 4,
+"constants": "----1",
+"pinned": 1
+},
+{
+"file": "4mod5-v1_24.real",
+"lines": 5,
+"gates": 5,
+"ccx": 2,
+"constants": "----1",
+"pinned": 1
+},
+{
+"file": "alu-bdd_288.real",
+"lines": 7,
+"gates": 9,
+"ccx": 5,
+"constants": "-----00",
+"pinned": 2
+},
+{
+"file": "alu-v0_27.real",
+"lines": 5,
+"gates": 6,
+"ccx": 2,
+"constants": "-----",
+"pinned": 0
+},
+{
+"file": "alu-v1_28.real",
+"lines": 5,
+"gates": 7,
+"ccx": 2,
+"constants": "-----",
+"pinned": 0
+},
+{
+"file": "alu-v1_29.real",
+"lines": 5,
+"gates": 7,
+"ccx": 2,
+"constants": "-----",
+"pinned": 0
+},
+{
+"file": "alu-v2_33.real",
+"lines": 5,
+"gates": 7,
+"ccx": 2,
+"constants": "-----",
+"pinned": 0
+},
+{
+"file": "alu-v3_34.real",
+"lines": 5,
+"gates": 7,
+"ccx": 3,
+"constants": "-----",
+"pinned": 0
+},
+{
+"file": "alu-v3_35.real",
+"lines": 5,
+"gates": 7,
+"ccx": 2,
+"constants": "-----",
+"pinned": 0
+},
+{
+"file": "alu-v4_37.real",
+"lines": 5,
+"gates": 7,
+"ccx": 2,
+"constants": "-----",
+"pinned": 0
+},
+{
+"file": "cnt3-5_179.real",
+"lines": 16,
+"gates": 25,
+"ccx": 10,
+"constants": "0--0--0--0--0---",
+"pinned": 5
+},
+{
+"file": "decod24-bdd_294.real",
+"lines": 6,
+"gates": 11,
+"ccx": 4,
+"constants": "--0110",
+"pinned": 4
+},
+{
+"file": "decod24-enable_125.real",
+"lines": 6,
+"gates": 9,
+"ccx": 3,
+"constants": "---000",
+"pinned": 3
+},
+{
+"file": "decod24-v0_38.real",
+"lines": 4,
+"gates": 6,
+"ccx": 3,
+"constants": "00--",
+"pinned": 2
+},
+{
+"file": "decod24-v2_43.real",
+"lines": 4,
+"gates": 6,
+"ccx": 3,
+"constants": "10--",
+"pinned": 2
+},
+{
+"file": "ex-1_166.real",
+"lines": 3,
+"gates": 4,
+"ccx": 1,
+"constants": null,
+"pinned": 0
+},
+{
+"file": "fredkin_6.real",
+"lines": 3,
+"gates": 3,
+"ccx": 3,
+"constants": "---",
+"pinned": 0
+},
+{
+"file": "ham3_102.real",
+"lines": 3,
+"gates": 5,
+"ccx": 1,
+"constants": "---",
+"pinned": 0
+},
+{
+"file": "ham7_299.real",
+"lines": 21,
+"gates": 61,
+"ccx": 20,
+"constants": "-------11100100111010",
+"pinned": 14
+},
+{
+"file": "hwb4_52.real",
+"lines": 4,
+"gates": 11,
+"ccx": 3,
+"constants": "----",
+"pinned": 0
+},
+{
+"file": "miller_11.real",
+"lines": 3,
+"gates": 5,
+"ccx": 3,
+"constants": "---",
+"pinned": 0
+},
+{
+"file": "mini_alu_305.real",
+"lines": 10,
+"gates": 20,
+"ccx": 10,
+"constants": "----001110",
+"pinned": 6
+},
+{
+"file": "mod5d1_63.real",
+"lines": 5,
+"gates": 7,
+"ccx": 1,
+"constants": "-----",
+"pinned": 0
+},
+{
+"file": "mod5d2_64.real",
+"lines": 5,
+"gates": 8,
+"ccx": 3,
+"constants": "-----",
+"pinned": 0
+},
+{
+"file": "mod5d2_70.real",
+"lines": 5,
+"gates": 8,
+"ccx": 2,
+"constants": null,
+"pinned": 0
+},
+{
+"file": "mod5mils_65.real",
+"lines": 5,
+"gates": 5,
+"ccx": 2,
+"constants": "-----",
+"pinned": 0
+},
+{
+"file": "mod5mils_71.real",
+"lines": 5,
+"gates": 5,
+"ccx": 2,
+"constants": null,
+"pinned": 0
+},
+{
+"file": "one-two-three-v2_100.real",
+"lines": 5,
+"gates": 8,
+"ccx": 4,
+"constants": "10---",
+"pinned": 2
+},
+{
+"file": "one-two-three-v3_101.real",
+"lines": 5,
+"gates": 8,
+"ccx": 4,
+"constants": "11---",
+"pinned": 2
+},
+{
+"file": "peres_9.real",
+"lines": 3,
+"gates": 2,
+"ccx": 1,
+"constants": "---",
+"pinned": 0
+},
+{
+"file": "plus63mod4096_309.real",
+"lines": 23,
+"gates": 49,
+"ccx": 10,
+"constants": "------------00000000001",
+"pinned": 11
+},
+{
+"file": "rd32-v0_66.real",
+"lines": 4,
+"gates": 4,
+"ccx": 2,
+"constants": "---0",
+"pinned": 1
+},
+{
+"file": "rd32-v1_68.real",
+"lines": 4,
+"gates": 5,
+"ccx": 2,
+"constants": "---1",
+"pinned": 1
+},
+{
+"file": "rd32_271.real",
+"lines": 5,
+"gates": 9,
+"ccx": 5,
+"constants": "---00",
+"pinned": 2
+},
+{
+"file": "rd32_272.real",
+"lines": 5,
+"gates": 6,
+"ccx": 3,
+"constants": "---00",
+"pinned": 2
+},
+{
+"file": "rd53_138.real",
+"lines": 8,
+"gates": 12,
+"ccx": 8,
+"constants": "-----000",
+"pinned": 3
+},
+{
+"file": "rd53_311.real",
+"lines": 13,
+"gates": 34,
+"ccx": 16,
+"constants": "-----00000010",
+"pinned": 8
+},
+{
+"file": "rd73_140.real",
+"lines": 10,
+"gates": 20,
+"ccx": 14,
+"constants": "-------000",
+"pinned": 3
+},
+{
+"file": "rd84_142.real",
+"lines": 15,
+"gates": 28,
+"ccx": 21,
+"constants": "--------0000000",
+"pinned": 7
+},
+{
+"file": "sym6_316.real",
+"lines": 14,
+"gates": 29,
+"ccx": 16,
+"constants": "------00000010",
+"pinned": 8
+},
+{
+"file": "sym9_146.real",
+"lines": 12,
+"gates": 28,
+"ccx": 20,
+"constants": "---------000",
+"pinned": 3
+},
+{
+"file": "sys6-v0_111.real",
+"lines": 10,
+"gates": 20,
+"ccx": 13,
+"constants": "------0000",
+"pinned": 4
+},
+{
+"file": "toffoli_2.real",
+"lines": 3,
+"gates": 1,
+"ccx": 1,
+"constants": "---",
+"pinned": 0
+},
+{
+"file": "toffoli_double_4.real",
+"lines": 4,
+"gates": 2,
+"ccx": 2,
+"constants": "----",
+"pinned": 0
+},
+{
+"file": "urf1_149.real",
+"lines": 9,
+"gates": 11554,
+"ccx": 11554,
+"constants": null,
+"pinned": 0
+},
+{
+"file": "urf2_152.real",
+"lines": 8,
+"gates": 5030,
+"ccx": 5030,
+"constants": null,
+"pinned": 0
+},
+{
+"file": "urf3_155.real",
+"lines": 10,
+"gates": 26468,
+"ccx": 26468,
+"constants": null,
+"pinned": 0
+},
+{
+"file": "urf4_187.real",
+"lines": 11,
+"gates": 32004,
+"ccx": 32004,
+"constants": "-----------",
+"pinned": 0
+},
+{
+"file": "urf5_158.real",
+"lines": 9,
+"gates": 10276,
+"ccx": 10276,
+"constants": null,
+"pinned": 0
+},
+{
+"file": "urf6_160.real",
+"lines": 15,
+"gates": 10740,
+"ccx": 10740,
+"constants": null,
+"pinned": 0
+}
+]

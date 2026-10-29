@@ -1,0 +1,1 @@
+{"circuit": "rl_decod24-bdd_294", "n": 6, "pins": 4, "exact": 28, "v1": 16, "v1_cleanup": 16, "lib": "basic", "resynth": 9, "resynth_dev": 1.887379141862766e-15, "resynth_s": 336.0, "v2": 9, "v2_source": "resynth", "resynth_true": 9, "gates3q": [], "v2_true": 9, "v2_true_source": "resynth"}

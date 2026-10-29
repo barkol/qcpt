@@ -1,0 +1,1 @@
+{"circuit": "grover_oracle_mcx4", "start": 19, "best_known": 18, "final": 18, "reached": true, "wall_s": 0.98, "cpu_s": 11.0, "steps": [{"member": "B3_basic_l06", "cost": 18, "round_s": 0.929, "at_s": 0.97, "wall": 0.971}], "winner": "B3_basic_l06", "t_best": 0.971, "t_best_core": 0.97, "cpu_s_at_best": 11.0, "dev": 2.2209226391697796e-15, "cx": 18}

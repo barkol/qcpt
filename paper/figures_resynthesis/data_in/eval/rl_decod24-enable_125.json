@@ -1,0 +1,1 @@
+{"circuit": "rl_decod24-enable_125", "n": 6, "pins": 3, "exact": 24, "v1": 15, "v1_cleanup": 15, "lib": "basic", "resynth": 12, "resynth_dev": 1.4432899320127035e-15, "resynth_s": 314.2, "v2": 12, "v2_source": "resynth", "resynth_true": 12, "gates3q": [], "v2_true": 12, "v2_true_source": "resynth"}

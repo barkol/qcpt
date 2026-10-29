@@ -1,0 +1,47 @@
+ripple_adder_5b          n=12 sites 1/1 2q 81->51 (+37.0%) cert=qcec:True (0.039s)
+zapisano ripple_adder_5b
+grover_oracle_6c         n=12 sites 5/5 2q 61->31 (+49.2%) cert=qcec:True (0.027s)
+zapisano grover_oracle_6c
+cla_adder_4b             n=13 sites 4/4 2q 85->43 (+49.4%) cert=qcec:True (0.201s)
+zapisano cla_adder_4b
+mod_incr_6b              n=12 sites 0/0 2q 66->36 (+45.5%) cert=dense_subspace:True (90.882s)
+zapisano mod_incr_6b
+[QCEC] Warning: alternating checker cannot handle the circuits. Falling back to construction checker.
+ripple_adder_7b          n=16 sites 1/1 2q 113->77 (+31.9%) cert=qcec_ancilla:True (0.613s)
+zapisano ripple_adder_7b
+grover_oracle_8c         n=16 sites 7/7 2q 85->43 (+49.4%) cert=qcec:True (0.038s)
+zapisano grover_oracle_8c
+[QCEC] Warning: alternating checker cannot handle the circuits. Falling back to construction checker.
+cla_adder_5b             n=16 sites 5/5 2q 109->55 (+49.5%) cert=qcec_ancilla:True (0.152s)
+zapisano cla_adder_5b
+[QCEC] Warning: alternating checker cannot handle the circuits. Falling back to construction checker.
+mod_incr_8b              n=16 sites 0/0 2q 92->50 (+45.7%) cert=qcec_ancilla:True (0.043s)
+zapisano mod_incr_8b
+[QCEC] Warning: alternating checker cannot handle the circuits. Falling back to construction checker.
+ripple_adder_10b         n=22 sites 1/1 2q 161->125 (+22.4%) cert=qcec_ancilla:True (164.521s)
+zapisano ripple_adder_10b
+grover_oracle_11c        n=22 sites 10/10 2q 121->61 (+49.6%) cert=qcec:True (0.135s)
+zapisano grover_oracle_11c
+[QCEC] Warning: alternating checker cannot handle the circuits. Falling back to construction checker.
+cla_adder_7b             n=22 sites 7/7 2q 157->79 (+49.7%) cert=qcec_ancilla:True (3.007s)
+zapisano cla_adder_7b
+[QCEC] Warning: alternating checker cannot handle the circuits. Falling back to construction checker.
+mod_incr_11b             n=22 sites 0/0 2q 131->71 (+45.8%) cert=qcec_ancilla:True (0.211s)
+zapisano mod_incr_11b
+array_mult_3b            n=12 sites 0/0 2q 54->54 (+0.0%) cert=qcec:True (0.021s)
+zapisano array_mult_3b
+ripple_live_carry_6b     n=13 sites 0/0 2q 42->42 (+0.0%) cert=qcec:True (0.022s)
+zapisano ripple_live_carry_6b
+half_uncomputed_6c       n=13 sites 5/5 2q 67->37 (+44.8%) cert=qcec:True (0.025s)
+zapisano half_uncomputed_6c
+array_mult_4b            n=16 sites 0/0 2q 96->96 (+0.0%) cert=qcec:True (0.025s)
+zapisano array_mult_4b
+ripple_live_carry_8b     n=17 sites 0/0 2q 56->56 (+0.0%) cert=qcec:True (0.023s)
+zapisano ripple_live_carry_8b
+half_uncomputed_8c       n=17 sites 7/7 2q 91->49 (+46.2%) cert=qcec:True (0.050s)
+zapisano half_uncomputed_8c
+array_mult_5b            n=20 sites 0/0 2q 150->150 (+0.0%) cert=qcec:True (0.028s)
+zapisano array_mult_5b
+array_mult_6b            n=24 sites 0/0 2q 216->216 (+0.0%) cert=qcec:True (0.035s)
+zapisano array_mult_6b
+wrote <out>/scale_results.md

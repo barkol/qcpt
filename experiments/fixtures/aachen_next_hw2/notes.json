@@ -1,0 +1,50 @@
+{
+ "skipped": {
+  "rl_4_49_17": "KeyError: None"
+ },
+ "post": {
+  "rl_4mod5-v0_18": {
+   "cz_before": 83,
+   "cz_after": 55,
+   "k": 5,
+   "cz_segment": 48,
+   "cz_new": 20,
+   "verified": true
+  },
+  "ripple_adder_4b": {
+   "cz_before": 287,
+   "cz_after": 287,
+   "k": 10,
+   "cz_segment": 131,
+   "note": "no cheaper circuit found"
+  },
+  "rl_4_49_17": {
+   "cz_before": 128,
+   "cz_after": 128,
+   "k": 4,
+   "cz_segment": 62,
+   "note": "no cheaper circuit found"
+  },
+  "rl_decod24-bdd_294": {
+   "cz_before": 88,
+   "cz_after": 88,
+   "k": 6,
+   "cz_segment": 41,
+   "note": "no cheaper circuit found"
+  },
+  "rl_alu-bdd_288": {
+   "cz_before": 132,
+   "cz_after": 132,
+   "k": 7,
+   "cz_segment": 65,
+   "note": "no cheaper circuit found"
+  },
+  "rl_one-two-three-v3_101": {
+   "cz_before": 92,
+   "cz_after": 92,
+   "k": 5,
+   "cz_segment": 42,
+   "note": "no cheaper circuit found"
+  }
+ }
+}

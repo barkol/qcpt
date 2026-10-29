@@ -1,0 +1,34 @@
+{"key": "reset|resetting_n8_L3", "n": 7, "twoq": 93, "qcec": "equivalent", "sv_ok": true, "sv_min_overlap": 0.9999999999999907}
+{"key": "reset|resetting_n8_L5", "n": 9, "twoq": 155, "qcec": "equivalent", "sv_ok": true, "sv_min_overlap": 0.9999999999999848}
+{"key": "reset|resetting_n8_L7", "n": 11, "twoq": 217, "qcec": "equivalent", "sv_ok": true, "sv_min_overlap": 0.9999999999999785}
+{"key": "reset|resetting_n16_L7", "n": 12, "twoq": 259, "qcec": "equivalent", "sv_ok": true, "sv_min_overlap": 0.9999999999999735}
+{"key": "revlib|rd53_311.real|ours", "n": 13, "tag": "ours", "twoq": 87, "cert_published": true, "qcec": "equivalent", "sv_ok": true, "sv_min_overlap": 0.9999999999999922}
+{"key": "revlib|rd53_311.real|qiskit_l3", "n": 13, "tag": "qiskit_l3", "twoq": 106, "cert_published": true, "qcec": "equivalent", "sv_ok": true, "sv_min_overlap": 0.9999999999999947}
+{"key": "revlib|rd53_311.real|tket", "n": 13, "tag": "tket", "twoq": 106, "cert_published": true, "qcec": "equivalent_up_to_global_phase", "sv_ok": true, "sv_min_overlap": 0.9999999999999951}
+{"key": "revlib|rd53_311.real|greedy", "n": 13, "tag": "greedy", "twoq": 60, "cert_published": false, "qcec": "not_equivalent", "sv_ok": false, "sv_min_overlap": 0.014508964367637114}
+{"key": "revlib|rd53_311.real|ours_qiskit", "n": 13, "tag": "ours_qiskit", "twoq": 85, "cert_published": true, "qcec": "equivalent_up_to_global_phase", "sv_ok": true, "sv_min_overlap": 0.9999999999999951}
+{"key": "revlib|sym6_316.real|ours", "n": 14, "tag": "ours", "twoq": 86, "cert_published": true, "qcec": "equivalent", "sv_ok": true, "sv_min_overlap": 0.9999999999999927}
+{"key": "revlib|sym6_316.real|qiskit_l3", "n": 14, "tag": "qiskit_l3", "twoq": 105, "cert_published": true, "qcec": "equivalent_up_to_global_phase", "sv_ok": true, "sv_min_overlap": 0.999999999999995}
+{"key": "revlib|sym6_316.real|tket", "n": 14, "tag": "tket", "twoq": 105, "cert_published": true, "qcec": "equivalent_up_to_global_phase", "sv_ok": true, "sv_min_overlap": 0.9999999999999953}
+{"key": "revlib|sym6_316.real|greedy", "n": 14, "tag": "greedy", "twoq": 59, "cert_published": false, "qcec": "not_equivalent", "sv_ok": false, "sv_min_overlap": 0.02956471459782556}
+{"key": "revlib|sym6_316.real|ours_qiskit", "n": 14, "tag": "ours_qiskit", "twoq": 84, "cert_published": true, "qcec": "equivalent_up_to_global_phase", "sv_ok": true, "sv_min_overlap": 0.9999999999999951}
+{"key": "revlib|rd84_142.real|ours", "n": 15, "tag": "ours", "twoq": 97, "cert_published": true, "qcec": "equivalent", "sv_ok": true, "sv_min_overlap": 0.9999999999999892}
+{"key": "revlib|rd84_142.real|qiskit_l3", "n": 15, "tag": "qiskit_l3", "twoq": 114, "cert_published": true, "qcec": "equivalent_up_to_global_phase", "sv_ok": true, "sv_min_overlap": 0.9999999999999922}
+{"key": "revlib|rd84_142.real|tket", "n": 15, "tag": "tket", "twoq": 114, "cert_published": true, "qcec": "equivalent_up_to_global_phase", "sv_ok": true, "sv_min_overlap": 0.9999999999999913}
+{"key": "revlib|rd84_142.real|greedy", "n": 15, "tag": "greedy", "twoq": 70, "cert_published": false, "qcec": "not_equivalent", "sv_ok": false, "sv_min_overlap": 0.006152482227161763}
+{"key": "revlib|rd84_142.real|ours_qiskit", "n": 15, "tag": "ours_qiskit", "twoq": 87, "cert_published": true, "qcec": "equivalent", "sv_ok": true, "sv_min_overlap": 0.9999999999999919}
+{"key": "revlib|cnt3-5_179.real|ours", "n": 16, "tag": "ours", "twoq": 60, "cert_published": true, "qcec": "equivalent", "sv_ok": true, "sv_min_overlap": 0.9999999999999939}
+{"key": "revlib|cnt3-5_179.real|qiskit_l3", "n": 16, "tag": "qiskit_l3", "twoq": 60, "cert_published": true, "qcec": "equivalent_up_to_global_phase", "sv_ok": true, "sv_min_overlap": 0.9999999999999961}
+{"key": "revlib|cnt3-5_179.real|tket", "n": 16, "tag": "tket", "twoq": 60, "cert_published": true, "qcec": "equivalent_up_to_global_phase", "sv_ok": true, "sv_min_overlap": 0.9999999999999964}
+{"key": "revlib|cnt3-5_179.real|greedy", "n": 16, "tag": "greedy", "twoq": 45, "cert_published": false, "qcec": "not_equivalent", "sv_ok": false, "sv_min_overlap": 0.00545515981140036}
+{"key": "revlib|cnt3-5_179.real|ours_qiskit", "n": 16, "tag": "ours_qiskit", "twoq": 50, "cert_published": true, "qcec": "equivalent", "sv_ok": true, "sv_min_overlap": 0.9999999999999953}
+{"key": "revlib|ham7_299.real|ours", "n": 21, "tag": "ours", "twoq": 118, "cert_published": true, "qcec": "equivalent", "sv_ok": true, "sv_min_overlap": 0.9999999999999889}
+{"key": "revlib|ham7_299.real|qiskit_l3", "n": 21, "tag": "qiskit_l3", "twoq": 150, "cert_published": true, "qcec": "equivalent_up_to_global_phase", "sv_ok": true, "sv_min_overlap": 0.9999999999999926}
+{"key": "revlib|ham7_299.real|tket", "n": 21, "tag": "tket", "twoq": 148, "cert_published": true, "qcec": "equivalent_up_to_global_phase", "sv_ok": true, "sv_min_overlap": 0.9999999999999925}
+{"key": "revlib|ham7_299.real|greedy", "n": 21, "tag": "greedy", "twoq": 91, "cert_published": false, "qcec": "not_equivalent", "sv_ok": false, "sv_min_overlap": 0.07607993507216465}
+{"key": "revlib|ham7_299.real|ours_qiskit", "n": 21, "tag": "ours_qiskit", "twoq": 118, "cert_published": true, "qcec": "equivalent", "sv_ok": true, "sv_min_overlap": 0.9999999999999925}
+{"key": "revlib|plus63mod4096_309.real|ours", "n": 23, "tag": "ours", "twoq": 52, "cert_published": true, "qcec": "equivalent", "sv_ok": true, "sv_min_overlap": 0.999999999999996}
+{"key": "revlib|plus63mod4096_309.real|qiskit_l3", "n": 23, "tag": "qiskit_l3", "twoq": 72, "cert_published": true, "qcec": "equivalent", "sv_ok": true, "sv_min_overlap": 0.999999999999996}
+{"key": "revlib|plus63mod4096_309.real|tket", "n": 23, "tag": "tket", "twoq": 72, "cert_published": true, "qcec": "equivalent_up_to_global_phase", "sv_ok": true, "sv_min_overlap": 0.9999999999999964}
+{"key": "revlib|plus63mod4096_309.real|greedy", "n": 23, "tag": "greedy", "twoq": 52, "cert_published": false, "qcec": "not_equivalent", "sv_ok": false, "sv_min_overlap": 0.06243728322009533}
+{"key": "revlib|plus63mod4096_309.real|ours_qiskit", "n": 23, "tag": "ours_qiskit", "twoq": 52, "cert_published": true, "qcec": "equivalent", "sv_ok": true, "sv_min_overlap": 0.999999999999996}

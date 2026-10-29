@@ -1,0 +1,12 @@
+{
+ "skipped": {},
+ "post": {
+  "ripple_adder_3b": {
+   "cz_before": 203,
+   "cz_after": 203,
+   "k": 8,
+   "cz_segment": 98,
+   "note": "no cheaper circuit found"
+  }
+ }
+}
