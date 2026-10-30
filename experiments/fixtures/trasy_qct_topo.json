@@ -1,0 +1,600 @@
+{
+ "description": "Which candidate and, for the candidate with its own routing (qct_topo), which route won each hardware point of the ibm_aachen series of 29 October 2026 (27 points of the Table 'probed' of the paper: 22 circuits of job aachen_repro_hw, 5 circuits marked dagger of job aachen_next_hw2).",
+ "series": "ibm_aachen, 29 October 2026",
+ "date": "2026-10-29",
+ "sources": {
+  "aachen_repro_hw": {
+   "job_id": "dbhkvo94vo9s73d1kr10",
+   "sent": "2026-10-29 14:53:37",
+   "shots": 8000,
+   "items_hw_pkl_sha256": "cae11b5f717996283dcb1e8729d378225d3d36b498774c128d52b58227d25f78",
+   "job_json_sha256": "2cf34b98b12a48e62e267091796fc3e6b3a99f0949aba55bbc607f3e749112ac",
+   "note": "items_hw.pkl is a Python pickle of the hardware driver (not part of the release); fields used: name, tag, layout, twoq_t, topo, t"
+  },
+  "aachen_next_hw2": {
+   "job_id": "dbhkn1g8vbtc738e43bg",
+   "sent": "2026-10-29 14:35:02",
+   "shots": 8000,
+   "items_hw_pkl_sha256": "3037ef6bc3fc019fbf31732ec0a4c185b575879d456eee15d003d59700ce7cf1",
+   "job_json_sha256": "4ba3965a9bc2195b339d6365b967f6846595ee68705cd0f865e785eae24651ec",
+   "note": "items_hw.pkl is a Python pickle of the hardware driver (not part of the release); fields used: name, tag, layout, twoq_t, topo, t"
+  }
+ },
+ "points": [
+  {
+   "circuit": "rl_4mod5-bdd_287",
+   "job_dir": "aachen_repro_hw",
+   "job_id": "dbhkvo94vo9s73d1kr10",
+   "dagger": false,
+   "winner": "qct_post",
+   "layout_qcpt": [
+    113,
+    119,
+    112,
+    132,
+    111,
+    114,
+    133
+   ],
+   "twoq_qiskit": 104,
+   "twoq_qcpt": 77
+  },
+  {
+   "circuit": "rl_rd32_271",
+   "job_dir": "aachen_repro_hw",
+   "job_id": "dbhkvo94vo9s73d1kr10",
+   "dagger": false,
+   "winner": "qct_post",
+   "layout_qcpt": [
+    119,
+    132,
+    112,
+    113,
+    133
+   ],
+   "twoq_qiskit": 101,
+   "twoq_qcpt": 67
+  },
+  {
+   "circuit": "rl_hwb4_52",
+   "job_dir": "aachen_repro_hw",
+   "job_id": "dbhkvo94vo9s73d1kr10",
+   "dagger": false,
+   "winner": "qct",
+   "layout_qcpt": [
+    111,
+    113,
+    119,
+    112
+   ],
+   "twoq_qiskit": 111,
+   "twoq_qcpt": 84
+  },
+  {
+   "circuit": "rl_4mod5-v0_18",
+   "job_dir": "aachen_repro_hw",
+   "job_id": "dbhkvo94vo9s73d1kr10",
+   "dagger": false,
+   "winner": "qct_post",
+   "layout_qcpt": [
+    132,
+    112,
+    113,
+    119,
+    133
+   ],
+   "twoq_qiskit": 83,
+   "twoq_qcpt": 55
+  },
+  {
+   "circuit": "rl_4mod5-v1_23",
+   "job_dir": "aachen_repro_hw",
+   "job_id": "dbhkvo94vo9s73d1kr10",
+   "dagger": false,
+   "winner": "qct",
+   "layout_qcpt": [
+    132,
+    112,
+    113,
+    119,
+    133
+   ],
+   "twoq_qiskit": 88,
+   "twoq_qcpt": 64
+  },
+  {
+   "circuit": "rl_one-two-three-v2_100",
+   "job_dir": "aachen_repro_hw",
+   "job_id": "dbhkvo94vo9s73d1kr10",
+   "dagger": false,
+   "winner": "qct_post",
+   "layout_qcpt": [
+    112,
+    119,
+    111,
+    113,
+    133
+   ],
+   "twoq_qiskit": 85,
+   "twoq_qcpt": 60
+  },
+  {
+   "circuit": "adder_live_carry",
+   "job_dir": "aachen_repro_hw",
+   "job_id": "dbhkvo94vo9s73d1kr10",
+   "dagger": false,
+   "winner": "qct",
+   "layout_qcpt": [
+    119,
+    113,
+    112,
+    132,
+    133
+   ],
+   "twoq_qiskit": 72,
+   "twoq_qcpt": 68
+  },
+  {
+   "circuit": "mod_incr_3b",
+   "job_dir": "aachen_repro_hw",
+   "job_id": "dbhkvo94vo9s73d1kr10",
+   "dagger": false,
+   "winner": "qct",
+   "layout_qcpt": [
+    119,
+    132,
+    112,
+    111,
+    133,
+    113
+   ],
+   "twoq_qiskit": 88,
+   "twoq_qcpt": 51
+  },
+  {
+   "circuit": "ripple_carry_adder_2b",
+   "job_dir": "aachen_repro_hw",
+   "job_id": "dbhkvo94vo9s73d1kr10",
+   "dagger": false,
+   "winner": "qct_topo",
+   "layout_qcpt": [
+    133,
+    112,
+    119,
+    113,
+    132,
+    111
+   ],
+   "twoq_qiskit": 120,
+   "twoq_qcpt": 86
+  },
+  {
+   "circuit": "mod_incr_2b",
+   "job_dir": "aachen_repro_hw",
+   "job_id": "dbhkvo94vo9s73d1kr10",
+   "dagger": false,
+   "winner": "qct_post",
+   "layout_qcpt": [
+    111,
+    112,
+    119,
+    113
+   ],
+   "twoq_qiskit": 38,
+   "twoq_qcpt": 30
+  },
+  {
+   "circuit": "mod_incr_4b",
+   "job_dir": "aachen_repro_hw",
+   "job_id": "dbhkvo94vo9s73d1kr10",
+   "dagger": false,
+   "winner": "qct",
+   "layout_qcpt": [
+    113,
+    133,
+    112,
+    114,
+    111,
+    132,
+    119,
+    110
+   ],
+   "twoq_qiskit": 138,
+   "twoq_qcpt": 91
+  },
+  {
+   "circuit": "ripple_adder_1b",
+   "job_dir": "aachen_repro_hw",
+   "job_id": "dbhkvo94vo9s73d1kr10",
+   "dagger": false,
+   "winner": "qct_post",
+   "layout_qcpt": [
+    112,
+    113,
+    111,
+    119
+   ],
+   "twoq_qiskit": 46,
+   "twoq_qcpt": 32
+  },
+  {
+   "circuit": "ripple_adder_3b",
+   "job_dir": "aachen_repro_hw",
+   "job_id": "dbhkvo94vo9s73d1kr10",
+   "dagger": false,
+   "winner": "qct",
+   "layout_qcpt": [
+    133,
+    112,
+    111,
+    113,
+    114,
+    119,
+    132,
+    110
+   ],
+   "twoq_qiskit": 184,
+   "twoq_qcpt": 153
+  },
+  {
+   "circuit": "grover_oracle_2c",
+   "job_dir": "aachen_repro_hw",
+   "job_id": "dbhkvo94vo9s73d1kr10",
+   "dagger": false,
+   "winner": "qct",
+   "layout_qcpt": [
+    111,
+    112,
+    113,
+    119
+   ],
+   "twoq_qiskit": 40,
+   "twoq_qcpt": 28
+  },
+  {
+   "circuit": "grover_oracle_mcx3",
+   "job_dir": "aachen_repro_hw",
+   "job_id": "dbhkvo94vo9s73d1kr10",
+   "dagger": false,
+   "winner": "qct_post",
+   "layout_qcpt": [
+    132,
+    133,
+    111,
+    113,
+    112,
+    119
+   ],
+   "twoq_qiskit": 105,
+   "twoq_qcpt": 79
+  },
+  {
+   "circuit": "grover_oracle_mcx4",
+   "job_dir": "aachen_repro_hw",
+   "job_id": "dbhkvo94vo9s73d1kr10",
+   "dagger": false,
+   "winner": "qct",
+   "layout_qcpt": [
+    112,
+    132,
+    113,
+    111,
+    119,
+    133,
+    114,
+    110
+   ],
+   "twoq_qiskit": 139,
+   "twoq_qcpt": 114
+  },
+  {
+   "circuit": "half_uncomputed_min",
+   "job_dir": "aachen_repro_hw",
+   "job_id": "dbhkvo94vo9s73d1kr10",
+   "dagger": false,
+   "winner": "qct",
+   "layout_qcpt": [
+    113,
+    111,
+    112,
+    119
+   ],
+   "twoq_qiskit": 53,
+   "twoq_qcpt": 34
+  },
+  {
+   "circuit": "half_uncomputed_2c",
+   "job_dir": "aachen_repro_hw",
+   "job_id": "dbhkvo94vo9s73d1kr10",
+   "dagger": false,
+   "winner": "qct_post",
+   "layout_qcpt": [
+    132,
+    133,
+    119,
+    113,
+    112
+   ],
+   "twoq_qiskit": 75,
+   "twoq_qcpt": 51
+  },
+  {
+   "circuit": "half_uncomputed_3c",
+   "job_dir": "aachen_repro_hw",
+   "job_id": "dbhkvo94vo9s73d1kr10",
+   "dagger": false,
+   "winner": "qct",
+   "layout_qcpt": [
+    112,
+    113,
+    132,
+    111,
+    119,
+    133,
+    114
+   ],
+   "twoq_qiskit": 111,
+   "twoq_qcpt": 84
+  },
+  {
+   "circuit": "half_uncomputed_4c",
+   "job_dir": "aachen_repro_hw",
+   "job_id": "dbhkvo94vo9s73d1kr10",
+   "dagger": false,
+   "winner": "qct",
+   "layout_qcpt": [
+    74,
+    94,
+    59,
+    55,
+    73,
+    75,
+    93,
+    79,
+    95
+   ],
+   "twoq_qiskit": 186,
+   "twoq_qcpt": 157
+  },
+  {
+   "circuit": "grover_oracle_5c",
+   "job_dir": "aachen_repro_hw",
+   "job_id": "dbhkvo94vo9s73d1kr10",
+   "dagger": false,
+   "winner": "qct_topo",
+   "layout_qcpt": [
+    95,
+    93,
+    75,
+    55,
+    73,
+    94,
+    79,
+    74,
+    54,
+    59
+   ],
+   "twoq_qiskit": 196,
+   "twoq_qcpt": 142
+  },
+  {
+   "circuit": "mod_incr_5b",
+   "job_dir": "aachen_repro_hw",
+   "job_id": "dbhkvo94vo9s73d1kr10",
+   "dagger": false,
+   "winner": "qct_topo",
+   "layout_qcpt": [
+    74,
+    95,
+    59,
+    79,
+    54,
+    55,
+    73,
+    94,
+    93,
+    75
+   ],
+   "twoq_qiskit": 216,
+   "twoq_qcpt": 128
+  },
+  {
+   "circuit": "ripple_adder_4b",
+   "job_dir": "aachen_next_hw2",
+   "job_id": "dbhkn1g8vbtc738e43bg",
+   "dagger": true,
+   "winner": "qct_topo",
+   "layout_qcpt": [
+    118,
+    126,
+    125,
+    108,
+    127,
+    124,
+    130,
+    128,
+    109,
+    129
+   ],
+   "twoq_qiskit": 287,
+   "twoq_qcpt": 200
+  },
+  {
+   "circuit": "rl_4_49_17",
+   "job_dir": "aachen_next_hw2",
+   "job_id": "dbhkn1g8vbtc738e43bg",
+   "dagger": true,
+   "winner": "qct",
+   "layout_qcpt": [
+    113,
+    112,
+    119,
+    111
+   ],
+   "twoq_qiskit": 128,
+   "twoq_qcpt": 93
+  },
+  {
+   "circuit": "rl_decod24-bdd_294",
+   "job_dir": "aachen_next_hw2",
+   "job_id": "dbhkn1g8vbtc738e43bg",
+   "dagger": true,
+   "winner": "qct",
+   "layout_qcpt": [
+    111,
+    113,
+    112,
+    119,
+    133,
+    132
+   ],
+   "twoq_qiskit": 88,
+   "twoq_qcpt": 67
+  },
+  {
+   "circuit": "rl_alu-bdd_288",
+   "job_dir": "aachen_next_hw2",
+   "job_id": "dbhkn1g8vbtc738e43bg",
+   "dagger": true,
+   "winner": "qct",
+   "layout_qcpt": [
+    112,
+    114,
+    132,
+    133,
+    111,
+    119,
+    113
+   ],
+   "twoq_qiskit": 132,
+   "twoq_qcpt": 107
+  },
+  {
+   "circuit": "rl_one-two-three-v3_101",
+   "job_dir": "aachen_next_hw2",
+   "job_id": "dbhkn1g8vbtc738e43bg",
+   "dagger": true,
+   "winner": "qct",
+   "layout_qcpt": [
+    112,
+    133,
+    113,
+    119,
+    111
+   ],
+   "twoq_qiskit": 92,
+   "twoq_qcpt": 68
+  }
+ ],
+ "qct_topo_winners": [
+  {
+   "circuit": "ripple_carry_adder_2b",
+   "job_dir": "aachen_repro_hw",
+   "job_id": "dbhkvo94vo9s73d1kr10",
+   "winning_route": "QCPT router",
+   "chosen_key": "qcpt",
+   "two_qubit_gates_of_V_after_routing": {
+    "qcpt_router": 23,
+    "sabre_stage2": 31,
+    "sabre_stage1": 29
+   },
+   "final_hardware_circuit_qct_topo": {
+    "cz": 86,
+    "one_qubit": 357,
+    "other": 0,
+    "depth": 307,
+    "depth_2q": 78
+   },
+   "final_hardware_circuit_qiskit": {
+    "cz": 120,
+    "one_qubit": 423,
+    "other": 0,
+    "depth": 361,
+    "depth_2q": 112
+   }
+  },
+  {
+   "circuit": "grover_oracle_5c",
+   "job_dir": "aachen_repro_hw",
+   "job_id": "dbhkvo94vo9s73d1kr10",
+   "winning_route": "SABRE on the circuit of stage 1 (best of 200 seeds)",
+   "chosen_key": "sabre_stage1",
+   "two_qubit_gates_of_V_after_routing": {
+    "qcpt_router": 62,
+    "sabre_stage2": 59,
+    "sabre_stage1": 45
+   },
+   "final_hardware_circuit_qct_topo": {
+    "cz": 142,
+    "one_qubit": 614,
+    "other": 0,
+    "depth": 503,
+    "depth_2q": 124
+   },
+   "final_hardware_circuit_qiskit": {
+    "cz": 196,
+    "one_qubit": 735,
+    "other": 0,
+    "depth": 529,
+    "depth_2q": 161
+   }
+  },
+  {
+   "circuit": "mod_incr_5b",
+   "job_dir": "aachen_repro_hw",
+   "job_id": "dbhkvo94vo9s73d1kr10",
+   "winning_route": "SABRE on the circuit of stage 2 (best of 200 seeds)",
+   "chosen_key": "sabre",
+   "two_qubit_gates_of_V_after_routing": {
+    "qcpt_router": 32,
+    "sabre_stage2": 26,
+    "sabre_stage1": 37
+   },
+   "final_hardware_circuit_qct_topo": {
+    "cz": 128,
+    "one_qubit": 516,
+    "other": 0,
+    "depth": 386,
+    "depth_2q": 108
+   },
+   "final_hardware_circuit_qiskit": {
+    "cz": 216,
+    "one_qubit": 781,
+    "other": 0,
+    "depth": 553,
+    "depth_2q": 175
+   }
+  },
+  {
+   "circuit": "ripple_adder_4b",
+   "job_dir": "aachen_next_hw2",
+   "job_id": "dbhkn1g8vbtc738e43bg",
+   "winning_route": "SABRE on the circuit of stage 1 (best of 200 seeds)",
+   "chosen_key": "sabre_stage1",
+   "two_qubit_gates_of_V_after_routing": {
+    "qcpt_router": 74,
+    "sabre_stage2": 93,
+    "sabre_stage1": 57
+   },
+   "final_hardware_circuit_qct_topo": {
+    "cz": 200,
+    "one_qubit": 815,
+    "other": 0,
+    "depth": 637,
+    "depth_2q": 172
+   },
+   "final_hardware_circuit_qiskit": {
+    "cz": 287,
+    "one_qubit": 984,
+    "other": 0,
+    "depth": 801,
+    "depth_2q": 255
+   }
+  }
+ ],
+ "notes": [
+  "Only the number of two-qubit gates of V after routing is recorded for the three routes of the portfolio; single-qubit gate counts and depths of the routes that did not win were not stored, so they are given only for the final hardware circuits (whole mirror circuit after the single transpilation at optimization level 1, seed 11).",
+  "The final hardware circuits are counted in the native gates cz, sx, x, rz (barriers and measurements excluded); other = any other gate.",
+  "winner is the candidate (qct, qct_topo, qct_post) that was sent as the QCPT circuit, i.e. the best of four candidates by predicted success probability."
+ ]
+}
